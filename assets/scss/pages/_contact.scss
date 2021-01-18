@@ -1,0 +1,54 @@
+.contact-info {
+  &__col:nth-of-type(1) {
+    margin: 0 0 2rem 0;
+    @include breakpoint(md) {
+      margin: 2rem 2rem 2rem 0;
+    }
+  }
+  &__col:nth-of-type(2) {
+    margin: 0 0 2rem 0;
+    @include breakpoint(md) {
+      margin: 2rem 0 2rem 2rem;
+    }
+  }
+  &__contact-card {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f6f6f6;
+    height: 100%;
+    svg {
+      fill: $darkBlue;
+      width: 75px;
+    }
+  }
+}
+.contact-form {
+  &__netlify-bot-field {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    margin: 0;
+  }
+  .contact-form__form-group input,
+  .contact-form__form-group textarea {
+    background-color: #f6f6f6;
+    border: none;
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+  }
+  &__form-group input {
+    height: 6rem;
+  }
+  &__form-group textarea {
+    height: 20rem;
+  }
+  &__btn {
+    border: none;
+  }
+}
+.thank-you {
+  .blog-content {
+    margin-top: 6rem;
+  }
+}

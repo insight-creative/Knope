@@ -1,0 +1,76 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Quintessence"
+enableRobotsTXT = true
+disableAliases = true
+summaryLength = 30
+
+#################### default parameters ################################
+
+[params]
+  logo = "images/logo.jpg"
+  # Meta data
+  description = "Site Description here"
+  author = "Quintessence"
+  # Contact Information
+  mobile = " "
+  email = "demo@email.com"
+  location = " "
+  disallowSearchEngines = true
+  # Google Analitycs
+  googleAnalytics = " " # Your ID# search 
+  minifyBundles = true
+
+# CSS Plugins
+  [[params.plugins.css]]
+  link = "plugins/swiper/css/swiper-bundle.min.css"
+
+# JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/swiper/js/swiper-bundle.min.js"
+
+# add redirects/headers
+  [outputs]
+  home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+  suffixes = [""]
+  delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url  = "about"
+    weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    url  = "post/"
+    weight = 10

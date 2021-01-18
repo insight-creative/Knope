@@ -1,0 +1,62 @@
+.home-hero {
+  background-image: url("/images/background-images/simplifying-the-workers-compensation-home-modification-process-800.jpg");
+  @include breakpoint(md) {
+    background-image: url("/images/background-images/simplifying-the-workers-compensation-home-modification-process-1400.jpg");
+  }
+  @include breakpoint(xl) {
+    background-image: url("/images/background-images/simplifying-the-workers-compensation-home-modification-process-1800.jpg");
+  }
+}
+.center-underline {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  display: block;
+  background-color: $medOrange;
+  height: 6px;
+  width: 14rem;
+  margin: 3rem 0;
+}
+.benefit {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 2rem;
+    background-color: $darkBlue;
+    color: $white;
+  }
+  &__content-inner {
+    max-width: 65rem;
+    margin: 0 auto;
+  }
+  &__heading {
+    color: $white;
+    line-height: 1.3em;
+  }
+  &__image {
+    overflow: hidden;
+  }
+}
+.cta {
+  background-image: url("/images/background-images/CorHome-CTA-optimized.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10rem 2rem;
+  margin-bottom: -2px;
+}
+.services {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__col {
+    flex: 1 1 300px; /*  No stretching: */
+    margin: 1rem;
+    p {
+      margin: 0 auto;
+    }
+  }
+}

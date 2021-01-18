@@ -1,0 +1,34 @@
+<div class="container blog-container" data-scroll-section>
+    <h3>Read some of our recent posts to learn more about CorHome.</h3>
+      {{ $pages := .Site.RegularPages }}
+      {{ $blog := where $pages "Type" "blog" }}
+      {{- range first 3 $blog -}}
+      <article class="fade-up blog-summary">
+          <a href="{{ .Permalink }}" class="blog-summary__link">
+              <div class="flex flex-column flex-row-m">
+                  <div class="w-100 w-30-m">
+                      <div class="blog-summary__image-wrap">
+                          {{ $has_image := .Params.image }}
+                          {{ if $has_image }}
+                          <img src="{{ .Permalink }}{{ .Params.image }}" alt=""
+                              class="blog-summary__img img-responsive zoom-images">
+                          {{ end }}
+                      </div>
+                  </div>
+                  <div class="w-100 w-70-m">
+                      <div class="blog-summary__content">
+                          <h3 class="blog-summary__title g4">{{ .Title }}</h3>
+                          {{ partial "blog/entry-meta" . }}
+                          <p class="blog-summary__summary">
+                              {{ if .Params.summary }}{{ .Params.summary | safeHTML }}{{ else }}{{ .Summary | safeHTML }}{{ end }}
+                          </p>
+                          <span class="blog-summary__read-more">
+                              Read More {{ partial "svg-icons/arrow-right.svg" . }}
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </a>
+      </article>
+      {{- end -}}
+  </div>

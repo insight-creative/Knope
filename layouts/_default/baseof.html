@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ block "head" . }}{{ partial "head" . }}{{ end }}
+{{ $namespace := lower .Page.Title }}
+{{ $mainClass := lower .Page.Title }}
+
+<body data-barba="wrapper">
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
+  <main id="main-content" class="site-main {{ .Params.page_class }} {{ anchorize $mainClass }}" role="main"
+    data-barba="container" data-barba-namespace="{{ anchorize $namespace }}">
+    <div class="smooth-scroll" data-scroll-container>
+      {{ block "main" . }}{{ end }}
+      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    </div>
+  </main>
+</body>
+
+</html>

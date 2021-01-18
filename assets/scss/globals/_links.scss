@@ -1,0 +1,58 @@
+a {
+	color: $darkBlue;
+	transition: 0.3s ease;
+	display: inline-block;
+	&:hover,
+	&:focus {
+		color: $darkOrange;
+		outline-color: $darkOrange;
+	}
+}
+.primary-link,
+.secondary-link {
+	text-decoration: none;
+	position: relative;
+	color: $darkOrange;
+	display: inline-block;
+}
+.primary-link:after,
+.secondary-link:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	transform: scaleX(1);
+	transition: 300ms ease-in-out;
+}
+.secondary-link:after {
+	content: "";
+	background-color: $darkOrange;
+}
+.primary-link,
+.secondary-link {
+	&:hover {
+		&:after {
+			transform: scaleX(0);
+		}
+	}
+}
+.link {
+	text-decoration: none;
+	transition: color 0.15s ease-in;
+}
+.link:link,
+.link:visited {
+	transition: color 0.15s ease-in;
+}
+.link:hover {
+	transition: color 0.15s ease-in;
+}
+.link:active {
+	transition: color 0.15s ease-in;
+}
+.link:focus {
+	transition: color 0.15s ease-in;
+	outline: 1px dotted currentColor;
+}
