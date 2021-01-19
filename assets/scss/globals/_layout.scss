@@ -382,6 +382,13 @@
   margin-left: auto;
   padding: 0 2rem;
   @include breakpoint(md) {
+    padding: 0 1rem;
+  }
+  @include breakpoint(lg) {
+    padding: 0 2rem;
+    width: 90%;
+  }
+  @include breakpoint(xl) {
     width: 80%;
   }
 }
@@ -437,6 +444,9 @@
 .padding-top-4 {
   padding-top: 4rem;
 }
+.padding-top-5 {
+  padding-top: 5rem;
+}
 .padding-top-6 {
   padding-top: 6rem;
 }
@@ -467,6 +477,9 @@
 .margin-top-2 {
   margin-top: 2rem;
 }
+.margin-top-5 {
+  margin-top: 5rem;
+}
 .margin-bottom-1 {
   margin-bottom: 1rem;
 }
@@ -476,104 +489,8 @@
 .margin-bottom-4 {
   margin-bottom: 4rem;
 }
-@include breakpoint(sm) {
-  .padding-10-s {
-    padding: 10px;
-  }
-  .padding-20-s {
-    padding: 20px;
-  }
-  .padding-top-10-s {
-    padding-top: 10px;
-  }
-  .padding-top-25-s {
-    padding-top: 25px;
-  }
-  .padding-top-50-s {
-    padding-top: 50px;
-  }
-  .padding-bottom-10-s {
-    padding-bottom: 10px;
-  }
-  .padding-bottom-25-s {
-    padding-bottom: 25px;
-  }
-  .padding-bottom-50-s {
-    padding-bottom: 50px;
-  }
-}
-@include breakpoint(md) {
-  .padding-10-m {
-    padding: 10px;
-  }
-  .padding-20-m {
-    padding: 20px;
-  }
-  .padding-top-10-m {
-    padding-top: 10px;
-  }
-  .padding-top-25-m {
-    padding-top: 25px;
-  }
-  .padding-top-50-m {
-    padding-top: 50px;
-  }
-  .padding-bottom-10-m {
-    padding-bottom: 10px;
-  }
-  .padding-bottom-25-m {
-    padding-bottom: 25px;
-  }
-  .padding-bottom-50-m {
-    padding-bottom: 50px;
-  }
-}
-@include breakpoint(lg) {
-  .padding-10-l {
-    padding: 10px;
-  }
-  .padding-20-l {
-    padding: 20px;
-  }
-  .padding-top-10-l {
-    padding-top: 10px;
-  }
-  .padding-top-25-l {
-    padding-top: 25px;
-  }
-  .padding-top-50-l {
-    padding-top: 50px;
-  }
-  .padding-bottom-10-l {
-    padding-bottom: 10px;
-  }
-  .padding-bottom-25-l {
-    padding-bottom: 25px;
-  }
-  .padding-bottom-50-l {
-    padding-bottom: 50px;
-  }
-}
 .spacing > * + * {
   margin-top: 2rem;
-}
-.margin-top-10 {
-  margin-top: 10px;
-}
-.margin-top-25 {
-  margin-top: 25px;
-}
-.margin-top-50 {
-  margin-top: 50px;
-}
-.margin-bottom-10 {
-  margin-bottom: 10px;
-}
-.margin-bottom-25 {
-  margin-bottom: 25px;
-}
-.margin-bottom-50 {
-  margin-bottom: 50px;
 }
 .limit-width {
   max-width: 1050px;
@@ -592,4 +509,12 @@
   bottom: 0;
   left: 0;
   z-index: 1030;
+}
+@include breakpoint(md) {
+  .w-50-m + .w-50-m {
+    margin-left: 2rem;
+  }
+  .w-70-m + .w-30-m {
+    margin-left: 2rem;
+  }
 }

@@ -4,7 +4,7 @@
   width: auto;
   display: block;
   top: -100px;
-  background: $darkBlue;
+  background: $primaryColor;
   color: $white;
   padding: 20px;
   z-index: 1000000000;
@@ -33,7 +33,7 @@
 .loading-screen {
   position: relative;
   padding: 0;
-  background-color: $darkBlue;
+  background-color: $primaryColor;
   width: 0;
   height: 100%;
 }
@@ -65,13 +65,8 @@
 .hero,
 .short-hero {
   &__inner {
-    height: 100%;
-    text-align: center;
-    @include breakpoint(md) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+    position: relative;
+    z-index: 2;
   }
   &__title {
     letter-spacing: -0.025em;

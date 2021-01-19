@@ -8,7 +8,7 @@ barba.use(barbaPrefetch);
 gsap.registerPlugin(ScrollTrigger);
 
 const menuButton = document.querySelector(".menu-button-wrap");
-const menu = document.querySelector(".nav-list");
+const menu = document.querySelector(".mobile-nav .nav-list");
 const hamburger = document.querySelector(".hamburger");
 
 menuButton.addEventListener("click", toggleMobileMenu);

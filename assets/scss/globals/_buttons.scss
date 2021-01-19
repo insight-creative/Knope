@@ -1,33 +1,35 @@
 .btn {
   position: relative;
-  z-index: 1;
-  display: inline-block;
-  letter-spacing: 1px;
-  font-size: 2.4rem;
-  font-weight: 700;
-  letter-spacing: 0.015em;
-  padding: 2.25rem 5rem;
-  text-decoration: none;
-  border-radius: 15px;
-  transition: 0.3s ease-in-out;
-}
-.btn-primary {
-  color: $medBlue;
-  background-color: $white;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  height: 100%;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  transition: all 0.4s ease-in-out;
   &:hover,
   &:focus {
-    color: $medBlue;
-    background-color: rgba($white, 0.8);
+    background-position: 100% 0;
+    transition: all 0.4s ease-in-out;
+    .arrow-right {
+      transform: translate(5px);
+    }
   }
 }
-.btn-secondary {
-  color: $white;
-  background-image: $blueGradient;
-  &:hover,
-  &:focus {
-    color: $white;
-    background-image: $blueGradientReverse;
-  }
+.btn.btn-primary {
+  background-image: linear-gradient(
+    to right,
+    #191960 0%,
+    #242488 15%,
+    #242488 85%,
+    #191960 100%
+  );
 }
 .center-button {
   margin: 0 auto;

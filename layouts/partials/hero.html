@@ -1,3 +1,15 @@
+{{ if eq .Title "Home" }}
+<div class="hero {{ lower .Page.Title }}-hero w-100" data-scroll-section>
+  <div class="hero__inner container-wide flex flex-column flex-row-m flex-center">
+    <div class="w-100 w-70-m">
+      <h1>{{ .Params.HeroTitle }}</h1>
+    </div>
+    <div class="hero__service-request w-100 w-30-m">
+      {{ partial "request-service" . }}
+    </div>
+  </div>
+</div>
+{{ else }}
 {{ $heroClass := lower .Page.Title }}
 <div class="short-hero {{ anchorize $heroClass }}-hero" data-scroll-section>
   <picture>
@@ -18,3 +30,4 @@
     <div class="center-underline"></div>
   </div>
 </div>
+{{ end }}

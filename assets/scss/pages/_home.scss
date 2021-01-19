@@ -1,41 +1,26 @@
 .home-hero {
-  background-image: url("/images/background-images/simplifying-the-workers-compensation-home-modification-process-800.jpg");
-  @include breakpoint(md) {
-    background-image: url("/images/background-images/simplifying-the-workers-compensation-home-modification-process-1400.jpg");
-  }
-  @include breakpoint(xl) {
-    background-image: url("/images/background-images/simplifying-the-workers-compensation-home-modification-process-1800.jpg");
-  }
-}
-.center-underline {
+  background-image: url("/images/background-images/home-hero.jpg");
+  background-image: url("/images/background-images/home-hero-grayscale.jpg");
   position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  display: block;
-  background-color: $medOrange;
-  height: 6px;
-  width: 14rem;
-  margin: 3rem 0;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
 }
-.benefit {
-  &__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 8rem 2rem;
-    background-color: $darkBlue;
-    color: $white;
-  }
-  &__content-inner {
-    max-width: 65rem;
-    margin: 0 auto;
-  }
-  &__heading {
-    color: $white;
-    line-height: 1.3em;
-  }
+.authorized-dealer {
+  background-image: url("/images/background-images/carrier-factory-authorized-dealer-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   &__image {
-    overflow: hidden;
+    max-width: 25rem;
+    padding: 1rem;
   }
 }
 .cta {

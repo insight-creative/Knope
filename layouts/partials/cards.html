@@ -1,0 +1,20 @@
+<section class="why-knope bg-gray padding-top-10 padding-bottom-10">
+    <div class="container-wide">
+        <h2 class="no-margin">Why Choose Knope?</h2>
+        <div class="underline"></div>
+    </div>
+    <div class="cards container-wide margin-bottom-4">
+        <div class="cards__wrapper">
+            {{ range .Params.cards }}
+            <div class="cards__col">
+                <div class="cards__icon"></div>
+                <h6>{{ .heading }}</h6>
+                <p>{{ .body }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <div class="container-wide text-center">
+        <a href="tel:{{ .Site.Params.phone }}" class="no-underline call-link"><h2 class="text-secondary">Need service? Call us at {{ .Site.Params.phone }}</h2></a>
+    </div>
+</section>

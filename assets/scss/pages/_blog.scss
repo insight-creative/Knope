@@ -12,7 +12,7 @@
     margin: 0 auto;
   }
   blockquote {
-    border-left: 5px solid $medBlue;
+    border-left: 5px solid $primaryColor;
     padding: 2rem;
     p {
       margin-bottom: 0;
@@ -21,7 +21,7 @@
 }
 .blog-summary {
   margin-bottom: 4rem;
-  border-bottom: 1px solid $darkBlue;
+  border-bottom: 1px solid $primaryColor;
   &__link {
     text-decoration: none;
     h3 {
@@ -31,15 +31,15 @@
     &:focus {
       h3,
       span {
-        color: $darkOrange;
+        color: $accentColor;
       }
       .blog-summary__entry-meta,
       p.blog-summary__summary {
-        color: $darkBlue;
+        color: $primaryColor;
       }
       .blog-summary__read-more {
         svg {
-          fill: $darkOrange;
+          fill: $accentColor;
           transform: translateX(5px);
         }
       }
@@ -104,10 +104,10 @@
     align-items: center;
     margin: 0 10px;
     color: $white;
-    background-image: $blueGradient;
+    background-image: $primaryColor;
     &:hover,
     &:focus {
-      background-image: $blueGradientReverse;
+      background-image: $primaryColor;
     }
     svg {
       fill: $white;

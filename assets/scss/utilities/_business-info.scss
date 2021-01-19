@@ -1,0 +1,39 @@
+.business-info {
+  display: none;
+  @include breakpoint(md) {
+    display: flex;
+  }
+  &__col {
+    align-items: center;
+    margin: 0 1rem;
+    @include breakpoint(lg) {
+      margin: 0 2rem;
+    }
+  }
+  &__col-content {
+    margin-left: 1rem;
+  }
+  &__address {
+    margin-left: 0;
+  }
+  p {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+}
+.footer {
+  .business-info {
+    display: flex;
+    &__col {
+      margin: 1rem 0;
+      @include breakpoint(md) {
+        margin: 0 1rem;
+      }
+    }
+  }
+}

@@ -2,11 +2,39 @@
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
 <header class="site-header" data-scroll-sticky data-scroll-target="header">
-  <nav class="nav primary-nav">
+  <div class="mobile-phone bg-blue">
+    <a href="tel:{{ .Site.Params.phone }}" class="mobile-phone__link">Call Knope: {{ .Site.Params.phone }}</a>
+  </div>
+  <div class="pre-nav container-wide flex">
     <div class="logo-wrapper">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" class="img-responsive dim" />
       </a>
+    </div>
+    <div class="business-info">
+      <div class="business-info__wrapper flex">
+        <div class="business-info__col flex">
+          {{ partial "svg-icons/calendar.svg" . }}
+          <div class="business-info__col-content">
+            <p class="b text-primary">{{ .Site.Params.hours }}</p>
+            <p>24hr Emergency Service</p>
+          </div>
+        </div>
+        <div class="business-info__col flex">
+          {{ partial "svg-icons/location.svg" . }}
+          <div class="business-info__col-content header-business-info__address">
+            <p class="b text-primary">Address</p>
+            <p><a href="https://goo.gl/maps/ifRQgXNT4gWN3o617" target="_blank">{{ .Site.Params.address }}</a></p>
+          </div>
+        </div>
+        <div class="business-info__col flex">
+          {{ partial "svg-icons/phone.svg" . }}
+          <div class="business-info__col-content">
+            <p class="b text-primary">Call Knope</p>
+            <p><a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="menu-button-wrap" aria-label="mobile menu toggle button" tabindex="0">
       <span class="mobile-menu-label">Menu</span>
@@ -17,16 +45,31 @@
         </span>
       </button>
     </div>
-    {{ with .Site.Menus.main }}
-  <ul class="nav-list">
-			{{ range . }}
-      <li class="nav-list-item">
-        <a class="nav-item" class="nav-item" href="{{ .URL }}" aria-label="{{ .Name }}"
-          title="{{ .Name }}">{{ .Name }}</a>
-      </li>
-			{{ end }}
-			</ul>
-	{{ end }}
-  </nav>
-  
+  </div>  
+  <div class="container-wide">
+    <nav class="nav primary-nav">
+      {{ with .Site.Menus.main }}
+      <ul class="nav-list">
+          {{ range . }}
+          <li class="nav-list-item">
+            <a class="nav-item" class="nav-item" href="{{ .URL }}" aria-label="{{ .Name }}"
+              title="{{ .Name }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          </ul>
+      {{ end }}
+    </nav>
+    <nav class="nav mobile-nav">
+      {{ with .Site.Menus.main }}
+      <ul class="nav-list">
+          {{ range . }}
+          <li class="nav-list-item">
+            <a class="nav-item" class="nav-item" href="{{ .URL }}" aria-label="{{ .Name }}"
+              title="{{ .Name }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          </ul>
+      {{ end }}
+    </nav>
+  </div>
 </header>

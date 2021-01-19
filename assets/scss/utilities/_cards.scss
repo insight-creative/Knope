@@ -1,0 +1,25 @@
+.cards {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__icon {
+    background-color: $primaryColor;
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  &__col {
+    background: $lightGray;
+    box-shadow: 5px 5px 25px rgba(25, 25, 96, 0.25);
+    border-bottom: 5px solid $primaryColor;
+    padding: 2rem;
+    flex: 1 1 300px; /*  No stretching: */
+    margin: 1rem;
+    p {
+      margin: 0 auto;
+    }
+  }
+}

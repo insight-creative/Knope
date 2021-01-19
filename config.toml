@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Quintessence"
+title = "Knope Heating & Air Conditioning"
 enableRobotsTXT = true
 disableAliases = true
 summaryLength = 30
@@ -8,14 +8,15 @@ summaryLength = 30
 #################### default parameters ################################
 
 [params]
-  logo = "images/logo.jpg"
+  logo = "images/Knope-Logo.jpg"
   # Meta data
   description = "Site Description here"
-  author = "Quintessence"
+  author = "Knope Heating & Air Conditioning"
   # Contact Information
-  mobile = " "
+  phone = "715-524-4215"
   email = "demo@email.com"
-  location = " "
+  address = "1473 E Green Bay St, Shawano, WI"
+  hours = "Mon-Sat: 7:00am - 5:00pm"
   disallowSearchEngines = true
   # Google Analitycs
   googleAnalytics = " " # Your ID# search 
@@ -66,11 +67,31 @@ summaryLength = 30
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url  = "about"
+    name = "Products"
+    url  = "products/"
     weight = 2
 
 [[menu.main]]
+    name = "About"
+    url  = "about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Services"
+    url  = "services/"
+    weight = 4
+
+[[menu.main]]
+    name = "Specials"
+    url  = "specials/"
+    weight = 5
+
+[[menu.main]]
     name = "Blog"
-    url  = "post/"
-    weight = 10
+    url  = "blog/"
+    weight = 6
+
+[[menu.main]]
+    name = "Contact"
+    url  = "contact/"
+    weight = 7

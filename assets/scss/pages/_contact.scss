@@ -17,34 +17,9 @@
     background-color: #f6f6f6;
     height: 100%;
     svg {
-      fill: $darkBlue;
+      fill: $primaryColor;
       width: 75px;
     }
-  }
-}
-.contact-form {
-  &__netlify-bot-field {
-    opacity: 0;
-    height: 0;
-    width: 0;
-    margin: 0;
-  }
-  .contact-form__form-group input,
-  .contact-form__form-group textarea {
-    background-color: #f6f6f6;
-    border: none;
-    width: 100%;
-    padding: 1rem 2rem;
-    margin-bottom: 2rem;
-  }
-  &__form-group input {
-    height: 6rem;
-  }
-  &__form-group textarea {
-    height: 20rem;
-  }
-  &__btn {
-    border: none;
   }
 }
 .thank-you {

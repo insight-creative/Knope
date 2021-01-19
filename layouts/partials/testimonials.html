@@ -1,0 +1,17 @@
+<section class="why-knope padding-top-10 padding-bottom-10">
+    <div class="container-wide">
+        <h2 class="no-margin">Testimonials</h2>
+        <div class="underline"></div>
+    </div>
+    <div class="cards testimonial container-wide margin-bottom-4">
+        <div class="cards__wrapper">
+            {{ range .Params.testimonials }}
+            <div class="testimonial__col">
+                <div class="testimonial__icon">{{ partial "svg-icons/quote.svg" . }}</div>
+                <p>{{ .testimonial }}</p>
+                <h6>{{ .author }}</h6>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

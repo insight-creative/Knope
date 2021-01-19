@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+<section class="intro container-wide padding-top-10 padding-bottom-10">
+  <div class="flex flex-column flex-row-m">
+    <div class="w-100 w-50-m">
+      <h2 class="no-margin">{{ .Params.intro.heading }}</h2>
+      <div class="underline"></div>
+      <p>{{ .Params.intro.copy }}</p>
+    </div>
+    <div class="w-100 w-50-m">
+      {{ partial "responsive-image" . }}
+    </div>
+  </div>
+  <div class="awards flex flex-center margin-top-5 padding-top-5">
+    {{ range .Params.awards }}
+      <img src="{{ .image }}" alt="{{ .alt }}">
+    {{ end }}
+  </div>
+</section>
+{{ partial "cards" . }}
+<section class="authorized-dealer">
+  <div class="container-wide flex flex-center flex-column flex-row-m padding-top-10 padding-bottom-10">
+    <div class="authorized-dealer__image w-100 w-30-m">
+      <img src="{{ .Params.carrierDealer.image }}" alt="">
+    </div>
+    <div class="w-100 w-70-m">
+      <h2 class="text-white">{{ .Params.carrierDealer.heading }}</h2>
+      <div class="underline white-underline"></div>
+      <p class="text-white">{{ .Params.carrierDealer.body }}</p>
+    </div>
+  </div>
+</section>
+{{ partial "testimonials" . }}
+{{ end }}
