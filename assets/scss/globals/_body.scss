@@ -8,6 +8,10 @@ body {
 }
 .site-main {
   opacity: 1;
+  margin-top: $mobileHeader;
+  @include breakpoint(md) {
+    margin-top: $desktopHeader;
+  }
 }
 ul {
   margin: 0;

@@ -144,19 +144,17 @@
   position: relative;
   font-weight: 700;
   &:before {
-    background: $accentColor;
-    height: 100%;
-    width: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    content: "";
-    opacity: 1;
     @include breakpoint(md) {
-      height: 25px;
+      background: $accentColor;
+      height: 5px;
       width: 100%;
-      top: -10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      content: "";
+      transition: 0.3s ease-in;
     }
   }
 }

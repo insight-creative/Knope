@@ -6,11 +6,11 @@
     <div class="cards testimonial container-wide margin-bottom-4">
         <div class="cards__wrapper">
             {{ range .Params.testimonials }}
-            <div class="testimonial__col">
+            <blockquote class="testimonial__col">
                 <div class="testimonial__icon">{{ partial "svg-icons/quote.svg" . }}</div>
                 <p>{{ .testimonial }}</p>
                 <h6>{{ .author }}</h6>
-            </div>
+            </blockquote>
             {{ end }}
         </div>
     </div>

@@ -11,8 +11,8 @@
     <div class="smooth-scroll" data-scroll-container>
       {{ block "main" . }}{{ end }}
     </div>
+    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
   </main>
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 </body>
 
 </html>
