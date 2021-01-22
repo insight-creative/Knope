@@ -1,0 +1,59 @@
+{{ define "main" }}
+    {{ partial "hero" . }}
+    <div class="padding-top-10">
+        <div class="container-wide flex flex-column flex-row-m flex-center bg-gray padding-2">
+            <div class="w-100 w-60-m">
+                <h3>{{ .Title }}</h3>
+                <div class="underline"></div>
+                {{ .Content }}
+            </div>
+            <div class="w-100 w-40-m">
+                <img src="/images/products/{{ .Params.featuredImage }}" alt="" class="product-featured-image">
+            </div> 
+        </div>
+    </div>
+    {{ range .Params.Product.productLine }}
+    <div class="cards products sp-10">
+        <div class="container">
+            <h3>{{ .name }}</h3>
+            <div class="underline"></div>
+            <p>{{ .description }}</p>
+        </div>
+        <div class="cards__wrapper container-wide">
+            {{ range .products }}
+                <div class="cards__col">
+                    <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="">
+                    <h6 class="no-margin">{{ .title }}</h6>
+                    <p class="b">{{ .productCode }}</p>
+                    <p class="padding-bottom-2">{{ .description }}</p>
+                    <h6>Top Features</h6>
+                    <ul>
+                        {{ range .features }}
+                            <li>{{ .feature }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    <!-- <div class="cards products">
+        <div class="container">
+            <h3>{{ .Params.infinityProducts.name }}</h3>
+            <div class="underline"></div>
+            <p>{{ .Params.infinityProducts.description }}</p>
+        </div>
+        <div class="cards__wrapper container-wide">
+            {{ range .Params.infinityProducts.products }}
+                <div class="cards__col">
+                    <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="">
+                    <h4>{{ .title }}</h6>
+                    <p class="b">{{ .productCode }}</p>
+                    <p>{{ .seer }}</p>
+                    <p>{{ .decibel }}</p>
+                </div>
+            {{ end }}
+        </div>
+    </div> -->
+    {{ partial "cta" . }}
+{{ end }}

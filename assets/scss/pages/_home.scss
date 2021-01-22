@@ -13,35 +13,3 @@
     background-color: rgba(255, 255, 255, 0.7);
   }
 }
-.authorized-dealer {
-  background-image: url("/images/background-images/carrier-factory-authorized-dealer-background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  &__image {
-    max-width: 25rem;
-    padding: 1rem;
-  }
-}
-.cta {
-  background-image: url("/images/background-images/CorHome-CTA-optimized.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 10rem 2rem;
-  margin-bottom: -2px;
-}
-.services {
-  &__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  &__col {
-    flex: 1 1 300px; /*  No stretching: */
-    margin: 1rem;
-    p {
-      margin: 0 auto;
-    }
-  }
-}

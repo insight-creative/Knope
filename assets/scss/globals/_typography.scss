@@ -46,18 +46,27 @@ h1,
 }
 h2,
 .g2 {
-  font-size: 4.9rem;
-  margin-bottom: 2.45rem;
+  font-size: 3.6rem;
+  margin-bottom: 0;
+  @include breakpoint(md) {
+    font-size: 4.9rem;
+  }
 }
 h3,
 .g3 {
-  font-size: 3.9rem;
-  margin-bottom: 1.95rem;
+  font-size: 3.2rem;
+  margin-bottom: 0;
+  @include breakpoint(md) {
+    font-size: 3.9rem;
+  }
 }
 h4,
 .g4 {
-  font-size: 3.1rem;
+  font-size: 2.8rem;
   margin-bottom: 1.55rem;
+  @include breakpoint(md) {
+    font-size: 3.1rem;
+  }
 }
 h5,
 .g5 {

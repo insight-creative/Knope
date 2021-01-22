@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://knope-dev.netlify.app/"
 languageCode = "en-us"
 title = "Knope Heating & Air Conditioning"
 enableRobotsTXT = true
@@ -14,8 +14,11 @@ summaryLength = 30
   author = "Knope Heating & Air Conditioning"
   # Contact Information
   phone = "715-524-4215"
-  email = "demo@email.com"
+  cell = "715-853-3393"
+  fax = "715-526-9491"
+  email = "reese@knopehvac.com"
   address = "1473 E Green Bay St, Shawano, WI"
+  GoogleMapDirections = "https://goo.gl/maps/ifRQgXNT4gWN3o617"
   hours = "Mon-Sat: 7:00am - 5:00pm"
   disallowSearchEngines = true
   # Google Analitycs

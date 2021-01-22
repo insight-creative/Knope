@@ -1,0 +1,41 @@
+.full-width-featured {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $blueOverlay95;
+    z-index: 2;
+    content: "";
+  }
+  &__content {
+    position: relative;
+    z-index: 3;
+  }
+  &__image {
+    max-width: 25rem;
+    padding: 1rem;
+  }
+}
+.about {
+  .full-width-featured {
+    &:after {
+      background-color: $whiteOverlay;
+    }
+    &__heading {
+      color: $primaryColor;
+    }
+    &__underline {
+      background-color: $accentColor;
+    }
+    &__body {
+      color: $black;
+    }
+  }
+}

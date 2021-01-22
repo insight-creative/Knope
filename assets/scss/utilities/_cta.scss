@@ -1,0 +1,19 @@
+.site-cta {
+  background-image: url("/images/background-images/cta-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 5px solid $primaryColor;
+  position: relative;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: $grayOverlay;
+    z-index: -1;
+  }
+}

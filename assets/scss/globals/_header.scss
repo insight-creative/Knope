@@ -78,6 +78,7 @@
   background-color: $white;
   padding: 0;
   opacity: 0;
+  margin: 0;
   @include breakpoint(md) {
     display: flex;
     flex-direction: row;

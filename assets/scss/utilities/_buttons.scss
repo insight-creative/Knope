@@ -1,14 +1,14 @@
 .btn {
   position: relative;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   font-size: 1.8rem;
   font-weight: 500;
   text-transform: uppercase;
+  text-decoration: none;
   color: #fff;
   cursor: pointer;
   padding: 1rem 2.5rem;
-  height: 100%;
+  height: auto;
   text-align: center;
   border: none;
   background-size: 300% 100%;
@@ -17,6 +17,7 @@
   &:focus {
     background-position: 100% 0;
     transition: all 0.4s ease-in-out;
+    color: $white;
     .arrow-right {
       transform: translate(5px);
     }

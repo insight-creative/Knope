@@ -59,12 +59,3 @@ a {
 .no-underline {
   text-decoration: none;
 }
-.call-link {
-  transition: 0.3s ease;
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    transform: translateY(-5px);
-    text-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
-  }
-}

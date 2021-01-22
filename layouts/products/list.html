@@ -1,0 +1,21 @@
+{{ define "main" }}
+    {{ partial "hero" . }}
+    <div class="container sp-10">
+        <p>{{ .Params.Intro }}</p>
+    </div>
+    <div class="container sp-10">
+        <div class="products-list">
+            <div class="products-list__wrapper">
+                {{ range .Pages }}
+                <a href="{{ .Permalink }}" class="products-list__col">
+                    <div>
+                        <h3 class="g5">{{ .Title }}</h3>
+                        <img src="{{ .Site.BaseURL }}/images/products/{{ .Params.featuredImage }}" alt="">
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ partial "cta" . }}
+{{ end }}

@@ -1,0 +1,18 @@
+{{ range $index, $element := .Params.featured }}
+{{ if modBool $index 2 }}
+<section class="full-width-featured authorized-dealer" style="background-image: url('/images/background-images/{{ .background }}')">
+    <div class="full-width-featured__content container-wide flex flex-center flex-column flex-row-m padding-top-10 padding-bottom-10">
+      <div class="full-width-featured__image w-100 w-30-m">
+        <img src="/images/{{ .image }}" alt="">
+      </div>
+      <div class="w-100 w-70-m">
+        <h2 class="full-width-featured__heading text-white no-margin">{{ .heading }}</h2>
+        <div class="full-width-featured__underline underline white-underline"></div>
+        <p class="full-width-featured__body text-white">{{ .body }}</p>
+      </div>
+    </div>
+</section>
+{{ else }}
+{{ partial "full-width-feature-reverse" . }}
+{{ end }}
+{{ end }}

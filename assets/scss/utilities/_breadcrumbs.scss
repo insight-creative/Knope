@@ -1,0 +1,27 @@
+.breadcrumbs-nav {
+  background-color: $primaryColor;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+    position: relative;
+    &:after {
+      position: absolute;
+      top: 2px;
+      left: -4px;
+      content: ">";
+    }
+  }
+  li:first-of-type {
+    &:after {
+      display: none;
+    }
+  }
+  a {
+    margin: 0 1rem;
+    color: $white;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+}

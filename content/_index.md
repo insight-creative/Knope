@@ -29,10 +29,11 @@ cards:
   - icon: Clock
     heading: 24-Hour Emergency Service
     body: For your convenience, we provide same day and after-hours emergency service, plus free in-home estimates.
-carrierDealer:
-  image: carrier-factory-authorized-dealer-logo.png
-  heading: Carrier Authorized Dealer
-  body: Knope Heating and Air Conditioning has been a factory authorized dealer of quality Carrier products since 1969. As the longest standing Carrier dealer in the state, we know the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to hybrid heating systems, humidifiers and controls.
+featured:
+  - background: carrier-factory-authorized-dealer-background.jpg
+    image: carrier-factory-authorized-dealer-logo.png
+    heading: Carrier Authorized Dealer
+    body: Knope Heating and Air Conditioning has been a factory authorized dealer of quality Carrier products since 1969. As the longest standing Carrier dealer in the state, we know the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to hybrid heating systems, humidifiers and controls.
 testimonials:
   - testimonial: Extremely helpful with routine maintenance and responsive to help calls. I will always use Knope Heating and Air Conditioning for my commercial needs.
     author: Lisa W.

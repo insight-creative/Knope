@@ -33,6 +33,15 @@
 }
 .short-hero {
   position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: $blueOverlay70;
+  }
   &__inner {
     position: absolute;
     top: 50%;
