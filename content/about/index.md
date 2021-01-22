@@ -8,8 +8,8 @@ featured:
     image: NATE-Certified-600.png
     heading: NATE-Certified
     body: Our technicians are NATE (North American Technician Excellence) certified. As the leading program for heating, ventilation, air-conditioning, and refrigeration, NATE is the only test supported by the entire industry and confirms technicians have real working knowledge of these specific systems.
-  - image: 2018-carrier-presidents-award.jpg
-    image2: 2019-carrier-presidents-award.jpg
+  - image: 2019-carrier-presidents-award.jpg
+    image2: 2018-carrier-presidents-award.jpg
     heading: Nationally Recognized
     body: Knope Heating and Air Conditioning is a two-time Carrier President’s Award recipient. Each year, Carrier honors HVAC companies that demonstrate the ability to go far beyond the status quo—even in the face of challenges and change— plus, year-over-year growth and continual emphasis on customer satisfaction.
 ---
