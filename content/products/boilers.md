@@ -3,6 +3,7 @@ title: Boilers
 featuredImage: performance-90-gas-fired-boiler-BW9.png
 pageTitle: Residential Boilers
 description: In homes with radiant heat, our gas- and oil-fired boilers efficiently power your system and spread warmth. Find a boiler today.
+has_hero_image: true
 weight: 5
 Product:
   productLine:

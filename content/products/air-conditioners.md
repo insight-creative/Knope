@@ -3,6 +3,7 @@ title: Air Conditioners
 featuredImage: infinity-19vs-central-air-conditioner-24VNA9-no-energy-star.png
 pageTitle: Central AC Units
 description: Explore all Carrier Residential central air conditioning units to find the perfect solution for your home. Choose your model and contact Knope today.
+has_hero_image: true
 weight: 1
 Product:
   productLine:

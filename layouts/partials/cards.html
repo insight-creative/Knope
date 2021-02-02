@@ -7,7 +7,7 @@
         <div class="cards__wrapper">
             {{ range .Params.cards }}
             <div class="cards__col">
-                <div class="cards__icon">
+                <div class="cards__icon {{ .icon }}">
                     <svg class="cards__svg"><use xlink:href="#{{ .icon }}"></use></svg>
                 </div>
                 <h6>{{ .heading }}</h6>

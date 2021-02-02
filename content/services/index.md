@@ -3,9 +3,10 @@ title: Services
 pageTitle: Heating and Cooling Repair Services in Shawano, WI
 heroTitle:
 description: Knope Heating & Air Conditioning offers commercial, residential & industrial HVAC, geothermal heating, cooling & ventilation services in Shawano, Wisconsin.
+has_hero_image: true
 ---
 
-## Residential, Commercial and Industrial Expertise
+<h2 class="no-margin">Residential, Commercial and Industrial Expertise</h2>
 
 <div class="underline"></div>
 

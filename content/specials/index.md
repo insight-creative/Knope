@@ -3,9 +3,10 @@ title: Specials
 pageTitle: Heating and Cooling Specials
 heroTitle:
 description: Knope Heating & Air Conditioning offers commercial & residential HVAC, geothermal heating, cooling, ventilation & Carrier equipment in Shawano, Wisconsin.
+has_hero_image: true
 ---
 
-### Carrier Cool Cash Rebates
+<h2 class="no-margin">Carrier Cool Cash Rebates</h2>
 
 <div class="underline"></div>
 

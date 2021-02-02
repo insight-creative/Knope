@@ -3,6 +3,7 @@ title: Thermostats
 featuredImage: carrier-3Lite-front-view.png
 pageTitle: Traditional Residential Thermostats
 description: Traditional thermostats give you easy-to-use control of your home comfort anytime. Learn more about Carrier traditional thermostats
+has_hero_image: true
 weight: 4
 intro:
   heading: Thermostats

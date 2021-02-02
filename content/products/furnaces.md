@@ -3,6 +3,7 @@ title: Furnaces
 featuredImage: performance-96-gas-furnace-59TP6.png
 pageTitle: Residential Furnaces
 description: Our quiet, energy-efficient furnaces are designed to provide warmth in winter and to circulate clean and refreshing air. Find a furnace today.
+has_hero_image: true
 weight: 2
 Product:
   productLine:

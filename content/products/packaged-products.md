@@ -3,6 +3,7 @@ title: Packaged Products
 featuredImage: performance-15-packaged-hybrid-heat-system-48VR.png
 pageTitle: Combined Heating and Cooling Units
 description: Our packaged HVAC systems are designed to make it easy for you to have whole-home heating and cooling. Find yours.
+has_hero_image: true
 weight: 6
 Product:
   productLine:

@@ -9,7 +9,7 @@
     </div>
   </div>
 </div>
-{{ else }}
+{{ else if eq .Params.has_hero_image true }}
 {{ $heroClass := lower .Page.Title }}
 <div class="short-hero {{ anchorize $heroClass }}-hero flex flex-center" data-scroll-section>
   <picture>
@@ -17,6 +17,22 @@
     <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-600.jpg 500w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1000.jpg 800w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1400.jpg 1200w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1800.jpg 1600w" type="image/jpeg" >  -->
    <img src="{{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1800.jpg" alt="" class="short-hero__image">
   </picture>
+  <div class="hero__inner short-hero__inner container text-center">
+    {{ if (isset .Params "hero_title") }}
+    <h1 class="hero__title short-hero__title text-white no-margin">
+      {{ .Params.hero_title }}
+    </h1>
+    {{ else }}
+    <h1 class="hero__title short-hero__title text-white no-margin">
+      {{ .Page.Title }}
+    </h1>
+    {{ end }}
+    <div class="center-underline"></div>
+  </div>
+</div>
+{{ partial "breadcrumbs" . }}
+{{ else }}
+<div class="short-hero flex flex-center" data-scroll-section>
   <div class="hero__inner short-hero__inner container text-center">
     {{ if (isset .Params "hero_title") }}
     <h1 class="hero__title short-hero__title text-white no-margin">

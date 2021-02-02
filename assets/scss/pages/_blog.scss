@@ -21,7 +21,8 @@
 }
 .blog-summary {
   margin-bottom: 4rem;
-  border-bottom: 1px solid $primaryColor;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid $lightGray;
   &__link {
     text-decoration: none;
     h3 {
@@ -85,6 +86,9 @@
       transition: 0.3s ease-out;
     }
   }
+}
+.blog-summary:last-of-type {
+  border-bottom: none;
 }
 .single-post {
   figure {

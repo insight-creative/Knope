@@ -1,8 +1,9 @@
 ---
 title: Heat Pumps
 featuredImage: infinity-15-heat-pump-25HNB5.png
-pageTitle:
-description:
+pageTitle: Heat Pumps | Heat & Cool Your Home
+description: Heat pump systems provide versatile heating, cooling, and humidity control. Explore all Carrier Residential heat pumps to find yours.
+has_hero_image: true
 weight: 3
 Product:
   productLine:

@@ -2,6 +2,7 @@
 title: About
 pageTitle: Heating and Cooling Experts in Shawano, WI
 description: Knope Heating & Air Conditioning offers commercial & residential HVAC, geothermal heating, cooling, ventilation & Carrier equipment in Shawano, Wisconsin.
+has_hero_image: true
 featured:
   - background: carrier-dealer-service-air-conditioner-mb.jpg
     image: NATE-Certified-600.png
@@ -13,7 +14,7 @@ featured:
     body: Knope Heating and Air Conditioning is a two-time Carrier President’s Award recipient. Each year, Carrier honors HVAC companies that demonstrate the ability to go far beyond the status quo—even in the face of challenges and change— plus, year-over-year growth and continual emphasis on customer satisfaction.
 ---
 
-## Locally Owned Since 1946
+<h2 class="no-margin">Locally Owned Since 1946</h2>
 
 <div class="underline"></div>
 
