@@ -3,14 +3,14 @@
     <div class="contact-form__wrapper">
         <form name="contact" netlify netlify-honeypot="bot-field" action="/thank-you">
             <div hidden>
-                <label>
+                <label for="bot-field">
                   Don’t fill this out if you're human: 
-                  <input name="bot-field" />
+                  <input name="bot-field" id="bot-field" />
                 </label>
             </div>
             <div class="contact-form__form-group">
                 <label for="name">Name*</label>
-                <input name="name" type="name" class="contact-form__form-control" required>
+                <input name="name" id="name" type="name" class="contact-form__form-control" required>
             </div>
             <div class="contact-form__form-group">
               <label for="phone">Phone*</label>
