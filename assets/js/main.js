@@ -2,7 +2,7 @@ import barba from '@barba/core';
 import barbaPrefetch from '@barba/prefetch';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { pageTransitionOut, pageTransitionIn, contentAnimation, updateMenu } from './partials';
+import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 
 barba.use(barbaPrefetch);
 gsap.registerPlugin(ScrollTrigger);
@@ -109,7 +109,6 @@ function initPageTransitions() {
         transitions: [{
             name: 'fade-transition',
             once(data) {
-                contentAnimation();
                 // do something once on the initial page load
                 homepageAnimations();
             },
@@ -123,7 +122,6 @@ function initPageTransitions() {
                 pageTransitionIn(data.next);
             },
             async beforeEnter(data) {
-                contentAnimation();
                 ScrollTrigger.getAll().forEach(t => t.kill());
             }
 

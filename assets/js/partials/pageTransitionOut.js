@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
 
 function pageTransitionOut({ container }) {
-    const mobileNav = document.querySelector(".nav-list");
+    const mobileNav = document.querySelector(".mobile-nav .nav-list");
     const hamburger = document.querySelector(".hamburger");
 
     if (mobileNav.classList.contains("nav-open")) {
