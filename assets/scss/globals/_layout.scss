@@ -510,8 +510,12 @@
   left: 0;
   z-index: 1030;
 }
+.w-50-m + .w-50-m {
+  margin-top: 2rem;
+}
 @include breakpoint(md) {
   .w-50-m + .w-50-m {
+    margin-top: 0;
     margin-left: 2rem;
   }
   .w-70-m + .w-30-m {

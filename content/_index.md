@@ -20,13 +20,13 @@ awards:
   - image: carrier-authorized-dealer.jpg
     alt: Carrier Authorized Dealer
 cards:
-  - icon: Family
+  - icon: family
     heading: Family-Owned Since 1946
     body: Founded by Melvin Knope in Shawano, Wisconsin, we’ve remained locally owned and operated for generations.
-  - icon: Certified
+  - icon: certified
     heading: NATE-Certified Technicians
     body: Our technicians are North American Technical Excellence certified and professionally trained to provide expert service.
-  - icon: Clock
+  - icon: clock
     heading: 24-Hour Emergency Service
     body: For your convenience, we provide same day and after-hours emergency service, plus free in-home estimates.
 featured:

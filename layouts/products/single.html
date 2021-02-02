@@ -17,7 +17,12 @@
         <div class="container">
             <h3>{{ .name }}</h3>
             <div class="underline"></div>
-            <p>{{ .description }}</p>
+            <p class="b">{{ .description }}</p>
+            <ul>
+                {{ range .benefits }}
+                    <li>{{ .benefit }}</li>
+                {{ end }}
+            </ul>
         </div>
         <div class="cards__wrapper container-wide">
             {{ range .products }}

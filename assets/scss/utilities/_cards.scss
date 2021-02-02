@@ -10,6 +10,13 @@
     width: 7.5rem;
     border-radius: 50%;
     margin-bottom: 2rem;
+    display: grid;
+    place-items: center;
+  }
+  &__svg {
+    width: 4rem;
+    fill: $lightGray;
+    stroke: $lightGray;
   }
   &__col {
     background: $lightGray;
@@ -17,7 +24,7 @@
     border-bottom: 5px solid $primaryColor;
     padding: 2rem;
     flex: 1 1 300px; /*  No stretching: */
-    margin: 1rem;
+    margin: 1rem 1rem 5rem 1rem;
     p {
       margin: 0 auto;
     }

@@ -1,7 +1,9 @@
 {{ define "main" }}
     {{ partial "hero" . }}
     <div class="container sp-10">
-        <p>{{ .Params.Intro }}</p>
+        <h2 class="no-margin">{{ .Params.intro.heading }}</h2>
+        <div class="underline"></div>
+        <p>{{ .Params.intro.copy }}</p>
     </div>
     <div class="container sp-10">
         <div class="products-list">
