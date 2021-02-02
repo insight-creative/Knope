@@ -77,10 +77,10 @@
   }
   &__read-more {
     margin: 1rem 0;
-    display: flex;
-    align-items: center;
     transition: 0.3s ease-out;
     svg {
+      fill: $primaryColor;
+      stroke: $primaryColor;
       width: 20px;
       margin-left: 5px;
       transition: 0.3s ease-out;
