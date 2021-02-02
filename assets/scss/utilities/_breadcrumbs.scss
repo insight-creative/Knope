@@ -25,3 +25,24 @@
     font-size: 1.4rem;
   }
 }
+.single-post {
+  .breadcrumbs-nav {
+    background-color: $white;
+    display: none;
+    @include breakpoint(md) {
+      display: flex;
+    }
+    &__wrapper {
+      width: 100%;
+      padding: 0;
+    }
+    li {
+      &:after {
+        color: $primaryColor;
+      }
+    }
+    a {
+      color: $primaryColor;
+    }
+  }
+}

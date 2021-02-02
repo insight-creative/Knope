@@ -1,6 +1,7 @@
 {{ define "main" }}
-    {{ partial "hero" .  }}
-    <div class="container padding-top-10 padding-bottom-10">
+    <div class="single-post container padding-top-10 padding-bottom-10">
+        {{ partial "breadcrumbs" . }}
+        <h1>{{ .Title }}</h1>
         {{ .Content  }}
     </div>
     {{ partial "full-width-feature" . }}

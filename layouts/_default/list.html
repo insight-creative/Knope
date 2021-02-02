@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ partial "hero" . }}
 <section class="container blog-container sp-10" data-scroll-section>
+  <h2>Heating and Cooling Resources</h2>
+  <div class="underline"></div>
   {{ range .Paginator.Pages.ByDate.Reverse }}
   <article class="fade-up blog-summary">
     <a href="{{ .Permalink }}" class="blog-summary__link">
@@ -16,7 +18,7 @@
         <div class="w-100 w-70-m">
           <div class="blog-summary__content">
             <h3 class="blog-summary__title g4">{{ .Title }}</h3>
-            {{ partial "blog/entry-meta" . }}
+            <!-- {{ partial "blog/entry-meta" . }} -->
             <p class="blog-summary__summary">
               {{ if .Params.summary }}{{ .Params.summary | safeHTML }}{{ else }}{{ .Summary  | safeHTML }}{{ end }}
             </p>
@@ -31,4 +33,5 @@
   {{ end }}
   {{ partial "blog/custom-pagination.html" . }}
 </section>
+{{ partial "cta" . }}
 {{ end }}

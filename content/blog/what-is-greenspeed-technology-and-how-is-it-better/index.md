@@ -1,9 +1,12 @@
 ---
 title: What is Greenspeed technology and how is it better?
 date: 2013-09-12T22:33:45-06:00
-image:
-desc: ""
+image: carrier-infinity-outdoor-unit-in-the-garden-3x2.jpg
+summary: "Greenspeed intelligence maximizes the performance of adaptable-speed technology, whether in the form of modulating valves or variable-speed compressors."
+desc: "Greenspeed intelligence maximizes the performance of adaptable-speed technology, whether in the form of modulating valves or variable-speed compressors."
 ---
+
+![outdoor carrier air conditioning unit in garden](carrier-infinity-outdoor-unit-in-the-garden-3x2.jpg)
 
 Greenspeed intelligence maximizes the performance of adaptable-speed technology, whether in the form of modulating valves or variable-speed compressors.
 
