@@ -33,6 +33,12 @@
 }
 .short-hero {
   position: relative;
+  height: 30vh;
+  @include breakpoint(md) {
+    height: auto;
+    min-height: 30vh;
+    background-color: $secondaryColor;
+  }
   &:after {
     position: absolute;
     top: 0;
@@ -41,6 +47,13 @@
     width: 100%;
     content: "";
     background-color: $blueOverlay70;
+  }
+  &__image {
+    height: 30vh;
+    object-fit: cover;
+    @include breakpoint(md) {
+      height: auto;
+    }
   }
   &__inner {
     position: absolute;

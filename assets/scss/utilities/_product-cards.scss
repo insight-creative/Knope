@@ -31,13 +31,18 @@
     max-width: 40rem;
     font-size: 1.6rem;
     position: relative;
-    padding: 20rem 2rem 2rem 2rem;
+    padding: 2rem;
+    @include breakpoint(sm) {
+      padding: 20rem 2rem 2rem 2rem;
+    }
     img {
       width: 70%;
       margin: 0 auto 2.5rem;
-      position: absolute;
-      top: -15%;
-      left: 15%;
+      @include breakpoint(sm) {
+        position: absolute;
+        top: -15%;
+        left: 15%;
+      }
     }
     p {
       margin: 0 0 1rem 0;

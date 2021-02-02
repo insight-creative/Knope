@@ -1,13 +1,17 @@
 ---
-title: Indoor Air Quality
+title: Ultraviolet (UV) Lamps
 featuredImage: performance-ultraviolet-germicidal-uv-light-UVLCC2LP.png
-pageTitle: Indoor Air Quality Systems
-description: Carrier® indoor air quality systems are versatile products giving you cleaner air and taking your comfort to the next level.
-weight: 5
+pageTitle: UV Lamps | UV Lights for HVAC
+description: UV lamps are a critical line of defense in killing mold and mildew on the indoor coil that can enter the airstream.
+weight: 4
 Product:
   productLine:
-    - name: Performance® Series Germicidal UV Lamp
-      description: Our UV lamps mean lights out for mold and bacteria. They kill the organisms that can grow on the indoor coil of your cooling system. Eliminating these baddies does more than help improve your air quality, it increases your system performance as well.
+    - name: Performance™ Series
+      description: "UV lamps improve air quality in your home:"
+      benefits:
+        - benefit: Bulb life expectancy up to 9,000 hours
+        - benefit: Kills mold and bacteria
+        - benefit: Maintain system efficiency
       products:
         - title: Performance™ Ultraviolet Germicidal UV Light
           image: performance-ultraviolet-germicidal-uv-light-UVLCC2LP.png
@@ -29,4 +33,4 @@ Product:
             - feature: "Wattage: 27 watts"
 ---
 
-It takes more than an air conditioner to make sure the conditions in your air are ideal. Create a cleaner, fresher and healthier environment for your family with our ventilators, UV lamps, humidifiers and air purifiers.
+Mold and mildew can impact your indoor air quality if they build up inside your HVAC system’s indoor cooling coil. Request installation of our UV lights to kill mold and mildew on the indoor cooling coil.
