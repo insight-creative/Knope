@@ -3,7 +3,13 @@
     <meta name="referrer" content="no-referrer" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <title>{{ .Params.PageTitle }} | {{ .Site.Title }}</title>
+    <title>
+        {{ if isset .Params "page_title" }}
+        {{ .Params.page_title }}
+        {{ else }}
+        {{ .Title }}
+        {{ end }} | {{ .Site.Title }}
+    </title>
 
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta property="og:type" content="website" />

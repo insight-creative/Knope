@@ -1,8 +1,8 @@
 ---
 title: Smart Thermostats
 featuredImage: carrier-3Lite-front-view.png
-pageTitle: Traditional Residential Thermostats
-description: Traditional thermostats give you easy-to-use control of your home comfort anytime. Learn more about Carrier traditional thermostats
+page_title: Smart Residential Thermostats
+description: Smart thermostats give you easy-to-use control of your home comfort anytime. Learn more about Carrier smart thermostats
 weight: 4
 Product:
   productLine:

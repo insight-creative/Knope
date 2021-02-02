@@ -1,7 +1,7 @@
 ---
 title: Traditional Thermostats
 featuredImage: comfort-programmable-thermostat-TC-PAC01.png
-pageTitle: Traditional Residential Thermostats
+page_title: Traditional Residential Thermostats
 description: Traditional thermostats give you easy-to-use control of your home comfort anytime. Learn more about Carrier traditional thermostats
 weight: 4
 Product:

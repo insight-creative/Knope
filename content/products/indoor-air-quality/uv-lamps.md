@@ -1,7 +1,7 @@
 ---
 title: Ultraviolet (UV) Lamps
 featuredImage: performance-ultraviolet-germicidal-uv-light-UVLCC2LP.png
-pageTitle: UV Lamps | UV Lights for HVAC
+page_title: UV Lamps | UV Lights for HVAC
 description: UV lamps are a critical line of defense in killing mold and mildew on the indoor coil that can enter the airstream.
 weight: 4
 Product:

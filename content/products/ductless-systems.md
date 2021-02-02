@@ -1,7 +1,7 @@
 ---
 title: Ductless Systems
 featuredImage: infinity-heat-pump-with-basepan-heater-38MPRA.png
-pageTitle: Ductless AC & Mini Split Systems
+page_title: Ductless AC & Mini Split Systems
 description: Because they don't need ducts inside your walls to reach your rooms, ductless air conditioners work wherever you need them.
 has_hero_image: true
 weight: 5

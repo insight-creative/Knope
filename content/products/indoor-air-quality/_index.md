@@ -1,7 +1,7 @@
 ---
 title: Home Air Quality
 featuredImage: infinity-air-purifier-DCAPA.png
-pageTitle: Indoor Air Quality Systems
+page_title: Indoor Air Quality Systems
 description: Carrier® indoor air quality systems are versatile products giving you cleaner air and taking your comfort to the next level.
 has_hero_image: true
 weight: 5

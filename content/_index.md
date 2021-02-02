@@ -1,6 +1,6 @@
 ---
 title: Home
-pageTitle: Heating and Cooling Experts in Shawano, WI
+page_title: Heating and Cooling Experts in Shawano, WI
 heroTitle: Heating and Cooling Experts in Shawano, WI
 description: Knope Heating & Air Conditioning—experts in commercial & residential HVAC, geothermal heating, cooling, ventilation & Carrier equipment in Shawano, Wisconsin.
 intro:

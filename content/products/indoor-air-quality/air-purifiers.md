@@ -1,7 +1,7 @@
 ---
 title: Air Purifiers
 featuredImage: infinity-air-purifier-DCAPA.png
-pageTitle: Whole House Air Purifiers
+page_title: Whole House Air Purifiers
 description: Because your indoor air can be more polluted than you imagine, a whole house air purifier is a key component to keep your air cleaner
 weight: 4
 Product:

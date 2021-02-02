@@ -34,10 +34,10 @@
 .short-hero {
   position: relative;
   height: 30vh;
+  background-color: $secondaryColor;
   @include breakpoint(md) {
     height: auto;
     min-height: 30vh;
-    background-color: $secondaryColor;
   }
   &:after {
     position: absolute;
