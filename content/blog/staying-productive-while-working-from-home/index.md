@@ -1,5 +1,5 @@
 ---
-title: "Staying Productive While Working From Home: 6 Tips for Making Your Home Your Office"
+title: "Staying productive while working from home: 6 tips for making your home your office"
 date: "2021-02-02"
 image: work-from-home.jpg
 summary: ""

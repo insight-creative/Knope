@@ -6,7 +6,7 @@ description: Knope Heating & Air Conditioning offers commercial, residential & i
 has_hero_image: true
 ---
 
-<h2 class="no-margin">Residential, Commercial and Industrial Expertise</h2>
+<h2 class="no-margin">Full-Service Expertise</h2>
 
 <div class="underline"></div>
 

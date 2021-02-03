@@ -1,5 +1,5 @@
 ---
-title: "What Temperature Should I Set My Thermostat?"
+title: "What temperature should I set my thermostat?"
 date: "2021-02-02"
 image: couple-sleeping-in-bed.jpg
 summary: "Trying to decide what temperature to set your thermostat? You are not alone!"
