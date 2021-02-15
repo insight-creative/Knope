@@ -10,6 +10,13 @@
   @include breakpoint(md) {
     height: 80vh;
   }
+  &__service-request {
+    display: flex;
+    justify-content: flex-start;
+    @include breakpoint(md) {
+      justify-content: flex-end;
+    }
+  }
 }
 .hero,
 .short-hero {

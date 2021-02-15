@@ -3,7 +3,7 @@
   padding: 1rem;
   box-shadow: 8px 8px 48px rgba(25, 25, 96, 0.25);
   @include breakpoint(md) {
-    max-width: 25em;
+    max-width: 20em;
     margin: 0;
   }
   .contact-form__form-group label {
