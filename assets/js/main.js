@@ -35,7 +35,7 @@ function fadeInContent() {
             scrollTrigger: {
                 trigger: introSection,
                 start: "top bottom-=50",
-                toggleActions: "play none none reset",
+                toggleActions: "play none none reverse",
             }
         });
     }
@@ -47,7 +47,8 @@ function fadeInContent() {
             ease: 'Power2.in',
             scrollTrigger: {
                 trigger: fade,
-                toggleActions: "play none none reset",
+                start: "top bottom-=100",
+                toggleActions: "play none none reverse",
             }
         })
     });

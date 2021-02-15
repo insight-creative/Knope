@@ -13,7 +13,6 @@
     </div>
     {{ partial "business-info" . }}
     <div class="menu-button-wrap" aria-label="mobile menu toggle button" tabindex="0">
-      <span class="mobile-menu-label">Menu</span>
       <button class="hamburger hamburger--slider" type="button" aria-haspopup="true" aria-label="Mobile menu button"
         aria-expanded="false">
         <span class="hamburger-box">
@@ -22,7 +21,7 @@
       </button>
     </div>
   </div>  
-  <div class="container-wide">
+  <div class="primary-nav-container">
     <nav class="nav primary-nav">
       {{ with .Site.Menus.main }}
       <ul class="nav-list">

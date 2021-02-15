@@ -36,8 +36,8 @@ p {
 /* Font-scale of a major third */
 h1,
 .g1 {
-  font-size: 3.9rem;
-  @include breakpoint(md) {
+  font-size: 3rem;
+  @include breakpoint(sm) {
     font-size: 4.9rem;
   }
   @include breakpoint(lg) {

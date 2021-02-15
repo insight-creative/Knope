@@ -1,6 +1,6 @@
 .testimonial {
   &__icon {
-    background-color: $primaryColor;
+    background-color: $secondaryColor;
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
@@ -14,9 +14,13 @@
     }
   }
   &__col {
-    background-color: $lightGray;
+    background-color: $primaryColor;
+    color: $white;
     padding: 2rem;
     flex: 1 1 300px; /*  No stretching: */
     margin: 1rem;
+  }
+  h6 {
+    color: $white;
   }
 }

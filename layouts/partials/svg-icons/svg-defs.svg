@@ -8,7 +8,7 @@
         <title>NATE Certified Technicians</title>
             {{ partial "svg-icons/certified.svg" . }}
         </symbol>
-        <symbol id="clock" viewBox="0 0 2048 2048">
+        <symbol id="clock" viewBox="0 0 512 512">
         <title>24-hour Emergency Service</title>
             {{ partial "svg-icons/clock.svg" . }}
         </symbol>

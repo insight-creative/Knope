@@ -13,7 +13,16 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: $grayOverlay;
+    background-color: $blueOverlay70;
     z-index: -1;
+  }
+  .business-info {
+    a,
+    p,
+    svg {
+      color: $white;
+      fill: $white;
+      stroke: $white;
+    }
   }
 }

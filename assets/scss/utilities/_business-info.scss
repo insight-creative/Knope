@@ -26,6 +26,23 @@
     color: $black;
   }
 }
+.emergency-cta {
+  background-color: $primaryColor;
+  color: $white;
+  padding: 2rem;
+  @include breakpoint(md) {
+    max-width: 25em;
+    margin: 0;
+  }
+  a,
+  h3,
+  svg {
+    color: $white;
+    fill: $white;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+}
 .footer {
   .business-info {
     display: flex;

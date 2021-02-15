@@ -26,29 +26,54 @@
     margin-top: 10rem;
   }
   .cards__col {
+    background: $primaryColor;
     border-bottom: none;
     flex: 1 1 300px;
     max-width: 40rem;
     font-size: 1.6rem;
     position: relative;
     padding: 2rem;
-    @include breakpoint(sm) {
-      padding: 20rem 2rem 2rem 2rem;
+    @include breakpoint(md) {
+      display: flex;
+      flex-direction: row;
+      flex: initial;
+      align-items: flex-start;
+      padding: 2rem 2rem 2rem 20rem;
+      max-width: 100%;
+      width: 100%;
     }
     img {
       width: 70%;
       margin: 0 auto 2.5rem;
-      @include breakpoint(sm) {
+      @include breakpoint(md) {
         position: absolute;
-        top: -15%;
-        left: 15%;
+        width: 25%;
+        top: 0;
+        left: -5%;
       }
+      @include breakpoint(lg) {
+        left: -10%;
+      }
+    }
+    h6,
+    p,
+    li {
+      color: $white;
     }
     p {
       margin: 0 0 1rem 0;
     }
+    ul {
+      @include breakpoint(md) {
+        columns: 2;
+      }
+    }
     li {
       font-size: 1.4rem;
+      margin-right: 1rem;
     }
+  }
+  .cards__col:nth-of-type(even) {
+    background: $accentColor;
   }
 }

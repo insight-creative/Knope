@@ -17,10 +17,28 @@
   &__content {
     position: relative;
     z-index: 3;
+    display: flex;
+    overflow: hidden;
+  }
+  &__col {
+    flex: 1;
+  }
+  &__col:last-of-type {
+    flex: 2;
+  }
+  &__col-content {
+    padding: 2rem;
   }
   &__image {
     max-width: 25rem;
     padding: 1rem;
+    img {
+      object-fit: cover;
+    }
+  }
+  .authorized-dealer-logo {
+    max-width: 150px;
+    padding: 0 0 2rem 0;
   }
 }
 .about {

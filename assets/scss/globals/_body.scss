@@ -18,14 +18,14 @@ ul {
 }
 // Style highlight to match our themes colors
 ::-moz-selection {
-  background: rgba(197, 103, 39, 0.8);
+  background: rgba(181, 23, 23, 0.8);
   color: $white;
 }
 ::selection {
-  background: rgba(197, 103, 39, 0.8);
+  background: rgba(181, 23, 23, 0.8);
   color: $white;
 }
 ::-ms-selection {
-  background: rgba(197, 103, 39, 0.8);
+  background: rgba(181, 23, 23, 0.8);
   color: $white;
 }

@@ -1,9 +1,6 @@
 .contact-form {
   background-color: $white;
   padding: 1rem;
-  max-width: 20em;
-  height: 100%;
-  margin: 0 auto;
   box-shadow: 8px 8px 48px rgba(25, 25, 96, 0.25);
   @include breakpoint(md) {
     max-width: 25em;
@@ -33,5 +30,10 @@
   }
   &__btn {
     border: none;
+  }
+}
+.contact {
+  .contact-form {
+    height: 100%;
   }
 }

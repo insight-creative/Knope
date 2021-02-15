@@ -42,10 +42,14 @@
 }
 .brand-logo {
   img {
-    width: 210px;
+    width: 250px;
     @include breakpoint(sm) {
       width: 100%;
-      max-width: 250px;
+      max-width: 300px;
+    }
+    @include breakpoint(lg) {
+      width: 350px;
+      max-width: 350px;
     }
   }
 }
@@ -59,7 +63,7 @@
     top: 25px;
     padding: 0 2rem;
     overflow: hidden;
-    background-color: $white;
+    background-color: $primaryColor;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
   }
 }
@@ -75,7 +79,7 @@
   left: 0;
   transform: translateX(120%);
   transition: 0.3s ease-in-out;
-  background-color: $white;
+  background-color: $primaryColor;
   padding: 0;
   opacity: 0;
   margin: 0;
@@ -100,64 +104,21 @@
 .nav-item {
   position: relative;
   text-decoration: none;
-  color: $black;
+  color: $white;
   padding: 1rem 3rem;
   font-size: 1.6rem;
   font-weight: 500;
   display: flex;
   align-items: center;
-  &:before {
-    @include breakpoint(md) {
-      background: $primaryColor;
-      height: 5px;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      opacity: 0;
-      content: "";
-      transition: 0.3s ease-in;
-    }
-  }
   &:hover,
   &:focus {
-    color: $primaryColor;
-    &:before {
-      opacity: 1;
-    }
-  }
-}
-.nav-list-item:not(:last-child) {
-  .nav-item {
-    &:after {
-      position: absolute;
-      content: "";
-      background-color: $lightGray;
-      width: 1px;
-      height: 25px;
-      top: 25%;
-      right: 0;
-    }
+    background-color: $secondaryColor;
+    color: $white;
   }
 }
 .current {
-  position: relative;
   font-weight: 700;
-  &:before {
-    @include breakpoint(md) {
-      background: $accentColor;
-      height: 5px;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      opacity: 1;
-      content: "";
-      transition: 0.3s ease-in;
-    }
-  }
+  background: $secondaryColor;
 }
 .nav-open {
   transform: translateX(0);
