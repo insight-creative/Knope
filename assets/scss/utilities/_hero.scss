@@ -17,19 +17,6 @@
     position: relative;
     z-index: 2;
   }
-  &__title {
-    letter-spacing: -0.025em;
-  }
-  &__subtitle {
-    font-weight: 400;
-    font-family: $primaryFont;
-    font-size: 2rem;
-    letter-spacing: 0.015em;
-    margin-bottom: 40px;
-    @include breakpoint(lg) {
-      font-size: 3rem;
-    }
-  }
 }
 .short-hero {
   position: relative;
