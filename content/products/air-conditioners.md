@@ -91,6 +91,7 @@ Product:
             - feature: "Sound Level (As Low As): 66 decibels"
             - feature: "Silencer System II Design: Yes"
             - feature: "Compressor Sound Blanket: Yes"
+
     - name: Performance® Series
       description: Perfect balance between performance and cost
       benefits:

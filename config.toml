@@ -19,7 +19,7 @@ summaryLength = 30
   email = "reese@knopehvac.com"
   address = "1473 E Green Bay St, Shawano, WI"
   GoogleMapDirections = "https://goo.gl/maps/ifRQgXNT4gWN3o617"
-  hours = "Mon-Sat: 7am-5pm"
+  hours = "Mon-Fri: 7am-5pm"
   disallowSearchEngines = true
   # Google Analitycs
   googleAnalytics = " " # Your ID# search 

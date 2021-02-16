@@ -4,7 +4,7 @@ featuredImage: performance-90-gas-fired-boiler-BW9.png
 page_title: Residential Boilers
 description: In homes with radiant heat, our gas- and oil-fired boilers efficiently power your system and spread warmth. Find a boiler today.
 has_hero_image: true
-weight: 5
+weight: 6
 Product:
   productLine:
     - name: Gas Performance™ Series
@@ -50,6 +50,7 @@ Product:
             - feature: "Heat Exchanger: Stainless steel"
             - feature: "Ignition Type: Electronic ignition"
             - feature: "Tankless Coil Water Heater: Not applicable"
+
     - name: Oil Performance™ Series
       description: "Oil boilers provide power and efficiency:"
       benefits:

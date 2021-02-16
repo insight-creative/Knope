@@ -36,6 +36,7 @@ Product:
             - feature: "Voice Control: No"
             - feature: "Stream Music: No"
             - feature: "Hands-Free Calling: No"
+
     - name: ecobee by Carrier Series
       description: "Personalized preferences:"
       benefits:
@@ -67,6 +68,30 @@ Product:
             - feature: "Voice Control: Yes"
             - feature: "Stream Music: Yes"
             - feature: "Hands-Free Calling: Yes"
+        - title: Smart Sensor for Infinity® Zoning Systems
+          image: infinity-smart-sensor-SYSTXZNSMS01.png
+          productCode: SYSTXZNSMS01
+          description: Smart sensors are optional upgrades for the wired remote room sensors used with Infinity® zoning systems.
+          features:
+            - feature: "Initial Cost: $$$"
+            - feature: "Energy Star® Certified: No"
+            - feature: "Remote Sensors: Compatible with Infinity zoning"
+            - feature: "Alexa® Built-In: No"
+            - feature: "Voice Control: No"
+            - feature: "Stream Music: No"
+            - feature: "Hands-Free Calling: No"
+        - title: Infinity® Zoning Panel
+          image: infinity-zoning-panel-SYSTXCC4ZC01.png
+          productCode: SYSTXCC4ZC01
+          description: Control the temperature and humidity in up to eight separate zones within your home.
+          features:
+            - feature: "Initial Cost: $$$"
+            - feature: "Energy Star® Certified: No"
+            - feature: "Remote Sensors: Compatible with Infinity sensors"
+            - feature: "Alexa® Built-In: No"
+            - feature: "Voice Control: No"
+            - feature: "Stream Music: No"
+            - feature: "Hands-Free Calling: No"
 ---
 
 A smart thermostat can make a noticeable difference for your home comfort and your wallet by putting control at your fingertips. Use your mobile device to set the perfect temperature while in your house or on the go. And with automatic adjustments, our ENERGY STAR®-certified thermostats save on heating and cooling costs by only turning on your system when you need it. For top-of-the-line control and comfort, pair the Infinity® Control with an ENERGY STAR®-certified Infinity® System.

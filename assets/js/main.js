@@ -18,27 +18,34 @@ function toggleMobileMenu() {
     hamburger.classList.toggle("is-active");
 }
 
-const selectAll = (e) => document.querySelectorAll(e);
+// mobileNavItem.addEventListener("click", updateAria);
+
+// function toggleMobileMenu() {
+//     if(menu.classList.contains("nav-open")) {
+//         this.setAttribute("aria-expanded", "false");
+//         this.setAttribute("aria-label", "open mobile menu");
+//         menu.classList.remove("nav-open");
+//         hamburger.classList.remove("is-active");
+//         console.log("menu closed");
+//     } else {
+//         menu.classList.add("nav-open");
+//         hamburger.classList.add("is-active");
+//         this.setAttribute("aria-expanded","true");
+//         this.setAttribute("aria-label","close mobile menu");
+//         console.log("menu opened");
+//     }
+// }
+
+// function updateAria() {
+//     menuButton.setAttribute("aria-expanded", "false");
+//     menuButton.setAttribute("aria-label", "open mobile menu");
+//     console.log("menu item clicked");
+// }
 
 function fadeInContent() {
-    const introSection = document.querySelector(".intro-section");
     const fadeWrapper = document.querySelector(".fade-wrapper .container");
     const fadeUp = document.querySelectorAll(".fade-up");
-    const blog = document.querySelector(".blog-container");
 
-    if (document.body.contains(introSection)) {
-        gsap.from(introSection, {
-            opacity: 0,
-            y: 20,
-            duration: .5,
-            ease: 'Power2.in',
-            scrollTrigger: {
-                trigger: introSection,
-                start: "top bottom-=50",
-                toggleActions: "play none none reverse",
-            }
-        });
-    }
     gsap.utils.toArray(fadeUp).forEach((fade) => {
         gsap.from(fade, {
             opacity: 0,

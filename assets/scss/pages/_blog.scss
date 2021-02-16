@@ -24,7 +24,11 @@
   padding-bottom: 3rem;
   border-bottom: 1px solid $lightGray;
   &__link {
+    color: $black;
     text-decoration: none;
+    &:hover {
+      color: $black;
+    }
     h3 {
       transition: 0.3s ease-out;
     }
@@ -33,10 +37,6 @@
       h3,
       span {
         color: $accentColor;
-      }
-      .blog-summary__entry-meta,
-      p.blog-summary__summary {
-        color: $primaryColor;
       }
       .blog-summary__read-more {
         svg {
@@ -95,12 +95,6 @@
     img {
       max-height: 400px;
       object-fit: cover;
-    }
-  }
-  h1 {
-    font-size: 2.4rem;
-    @include breakpoint(md) {
-      font-size: 4rem;
     }
   }
 }

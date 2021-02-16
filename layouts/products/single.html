@@ -15,12 +15,18 @@
     {{ range .Params.Product.productLine }}
     <div class="cards products sp-10">
         <div class="container">
-            <h3 class="no-margin">{{ .name }}</h3>
-            <div class="underline"></div>
-            <p class="b">{{ .description }}</p>
+            {{ if .name }}
+                <h3 class="no-margin">{{ .name }}</h3>
+                <div class="underline"></div>
+            {{ end }}
+            {{ if .description }}
+                <p class="b">{{ .description }}</p>
+            {{ end }}
             <ul>
                 {{ range .benefits }}
-                    <li>{{ .benefit }}</li>
+                    {{ if .benefit }}
+                        <li>{{ .benefit }}</li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </div>
