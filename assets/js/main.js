@@ -54,7 +54,7 @@ function fadeInContent() {
             ease: 'Power2.in',
             scrollTrigger: {
                 trigger: fade,
-                start: "top bottom-=100",
+                start: "top bottom-=50",
                 toggleActions: "play none none reverse",
             }
         })
