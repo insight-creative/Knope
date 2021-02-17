@@ -27,7 +27,7 @@
       <ul class="nav-list">
           {{ range . }}
           <li class="nav-list-item">
-            <a class="nav-item" class="nav-item" href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
+            <a class="nav-item" href="{{ .URL | absLangURL}}" aria-label="{{ .Name }}"
               title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}
@@ -39,7 +39,7 @@
       <ul class="nav-list">
           {{ range . }}
           <li class="nav-list-item">
-            <a class="nav-item" class="nav-item" href="{{ .URL | absLangURL }}" aria-label="{{ .Name }}"
+            <a class="nav-item" href="{{ .URL | absLangURL }}" aria-label="{{ .Name }}"
               title="{{ .Name }}">{{ .Name }}</a>
           </li>
           {{ end }}
