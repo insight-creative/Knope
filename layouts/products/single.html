@@ -1,8 +1,8 @@
 {{ define "main" }}
-    {{ partial "hero" . }}
     <div class="padding-top-10">
-        <div class="container-wide flex flex-column flex-row-m flex-center bg-gray padding-2">
+        <div class="single-product container-wide flex flex-column flex-row-m flex-center bg-gray padding-2">
             <div class="w-100 w-60-m">
+                {{ partial "breadcrumbs" . }}
                 <h3 class="no-margin">{{ .Title }}</h3>
                 <div class="underline"></div>
                 {{ .Content }}

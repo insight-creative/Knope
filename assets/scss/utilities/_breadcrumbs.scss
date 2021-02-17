@@ -25,7 +25,8 @@
     font-size: 1.4rem;
   }
 }
-.single-post {
+.single-post,
+.single-product {
   .breadcrumbs-nav {
     background-color: $white;
     display: none;
@@ -43,6 +44,16 @@
     }
     a {
       color: $primaryColor;
+    }
+  }
+}
+.single-product {
+  .breadcrumbs-nav {
+    background-color: $lightGray;
+    li:first-of-type {
+      a {
+        margin-left: 0;
+      }
     }
   }
 }

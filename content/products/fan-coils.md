@@ -3,7 +3,7 @@ title: Fan Coils
 featuredImage: infinity-fan-coil-FE4.png
 page_title: Fan Coils
 description: Our fan coils and other Carrier cooling products will help push your cooling systems efficiency to its highest level. Contact us or order today!
-has_hero_image: true
+has_hero_image:
 weight: 8
 Product:
   productLine:
