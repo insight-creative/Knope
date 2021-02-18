@@ -12,8 +12,8 @@
   }
   &__service-request {
     display: flex;
-    justify-content: flex-start;
-    @include breakpoint(md) {
+    justify-content: center;
+    @include breakpoint(sm) {
       justify-content: flex-end;
     }
   }
@@ -82,4 +82,7 @@
   .center-underline {
     margin: 0;
   }
+}
+.simple-hero + .padding-top-10 {
+  padding-top: 2rem;
 }

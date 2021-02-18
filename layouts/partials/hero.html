@@ -31,18 +31,16 @@
 </div>
 {{ partial "breadcrumbs" . }}
 {{ else }}
-<div class="short-hero flex flex-center" data-scroll-section>
-  <div class="hero__inner short-hero__inner container text-center">
-    {{ if (isset .Params "hero_title") }}
-    <h1 class="hero__title short-hero__title text-white no-margin">
+<div class="simple-hero container padding-top-6">
+  {{ partial "breadcrumbs" . }}
+  {{ if (isset .Params "hero_title") }}
+    <h1>
       {{ .Params.hero_title }}
     </h1>
     {{ else }}
-    <h1 class="hero__title short-hero__title text-white no-margin">
+    <h1>
       {{ .Page.Title }}
     </h1>
     {{ end }}
-  </div>
 </div>
-{{ partial "breadcrumbs" . }}
 {{ end }}

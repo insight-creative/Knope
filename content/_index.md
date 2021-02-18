@@ -37,7 +37,7 @@ featured:
 testimonials:
   - testimonial: Extremely helpful with routine maintenance and responsive to help calls. I will always use Knope Heating and Air Conditioning for my commercial needs.
     author: Lisa W.
-  - testimonial: I called the emergency line at 4:30 am. By 8:30 am, I had an answer that a potentially a major cost ended up being a minor fix. Great expedited response!
+  - testimonial: I called the emergency line at 4:30 am. By 8:30 am, I had an answer that a potentially major cost ended up being a minor fix. Great expedited response!
     author: Jeff M.
   - testimonial: Knope is the go-to place for anything heating and cooling. Always fast, efficient, and most of all, friendly service!
     author: Michael Kamke

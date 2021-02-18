@@ -1,9 +1,7 @@
 {{ define "main" }}
-    <div class="single-post container padding-top-10 padding-bottom-10">
-        {{ partial "breadcrumbs" . }}
-        <h1>{{ .Title }}</h1>
+{{ partial "hero" . }}
+    <div class="single-post container padding-bottom-10">
         {{ .Content  }}
     </div>
-    {{ partial "full-width-feature" . }}
-    {{ partial "cta" . }}
+{{ partial "cta" . }}
 {{ end }}

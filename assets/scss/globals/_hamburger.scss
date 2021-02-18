@@ -18,6 +18,9 @@
   margin: 0;
   overflow: visible;
   padding: 10px;
+  @include breakpoint(md) {
+    display: none;
+  }
 }
 .hamburger:hover {
   opacity: 0.7;

@@ -161,14 +161,6 @@
     }
   }
 }
-.menu-button-wrap {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  @include breakpoint(md) {
-    display: none;
-  }
-}
 .mobile-menu-label {
   margin-top: -10px;
 }
@@ -176,5 +168,35 @@
   transform: translateY(-100%);
   @include breakpoint(md) {
     display: none;
+  }
+}
+.collapse {
+  animation: collapse 0.5s ease forwards;
+}
+
+// Open nav bar on scroll up
+.expand {
+  animation: expand 0.5s ease forwards;
+}
+
+@keyframes collapse {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes expand {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

@@ -2,3 +2,8 @@
   max-width: 40rem;
   margin: 0 auto;
 }
+.single-product {
+  @include breakpoint(md) {
+    padding-top: 6rem;
+  }
+}
