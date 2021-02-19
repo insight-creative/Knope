@@ -9,7 +9,7 @@
         <div class="w-100 w-70-m">
           <h2 class="full-width-featured__heading text-white no-margin">{{ .heading }}</h2>
           <div class="full-width-featured__underline underline white-underline"></div>
-          <p class="full-width-featured__body text-white">{{ .body }}</p>
+          {{ .body | markdownify }}
         </div>
       </div>
     </div>

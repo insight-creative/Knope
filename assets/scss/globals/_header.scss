@@ -171,12 +171,16 @@
   }
 }
 .collapse {
-  animation: collapse 0.5s ease forwards;
+  @include breakpoint(md) {
+    animation: collapse 0.5s ease forwards;
+  }
 }
 
 // Open nav bar on scroll up
 .expand {
-  animation: expand 0.5s ease forwards;
+  @include breakpoint(md) {
+    animation: expand 0.5s ease forwards;
+  }
 }
 
 @keyframes collapse {

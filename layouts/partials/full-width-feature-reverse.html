@@ -7,9 +7,10 @@
           <p class="full-width-featured__body">{{ .body }}</p>
         </div>
         <div class="full-width-featured__image w-100 w-40-m">
-          <img src="/images/{{ .image }}" alt="">
-          <img src="/images/{{ .image2 }}" alt="">
-          <img src="/images/{{ .image3 }}" alt="">
+          <img src="/images{{ .image | relURL }}" alt="">
+          <img src="/images{{ .image2 | relURL }}" alt="">
+          <img src="/images{{ .image3 | relURL }}" alt="">
+          <img src="/images{{ .image4 | relURL }}" alt="">
         </div>
       </div>
     </div>

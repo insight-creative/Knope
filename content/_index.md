@@ -9,10 +9,14 @@ intro:
   image: knope-heating-and-air-conditioning
   imageAlt: Carrier service repairmen meeting with client and looking and furnaces and air conditioning units
 awards:
-  - image: 2018-carrier-presidents-award.jpg
-    alt: 2018 Carrier Presidents Award Winner
-  - image: 2019-carrier-presidents-award.jpg
+  - image: 2021-carrier-presidents-award-grayscale.jpg
+    alt: 2021 Carrier Presidents Award Winner
+  - image: 2020-carrier-presidents-award-grayscale.jpg
+    alt: 2020 Carrier Presidents Award Winner
+  - image: 2019-carrier-presidents-award-grayscale.jpg
     alt: 2019 Carrier Presidents Award Winner
+  - image: 2018-carrier-presidents-award-grayscale.jpg
+    alt: 2018 Carrier Presidents Award Winner
   - image: NATE-Certified-Technicians.jpg
     alt: NATE Certified Technicians
   - image: BBB-Accredited.jpg
@@ -33,7 +37,10 @@ featured:
   - background: carrier-factory-authorized-dealer-background.jpg
     image: carrier-factory-authorized-dealer-logo.png
     heading: Carrier Authorized Dealer
-    body: Knope Heating and Air Conditioning has been a factory authorized dealer of quality Carrier products since 1969. As the longest standing Carrier dealer in the state, we know the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to hybrid heating systems, humidifiers and controls.
+    body: "Knope Heating and Air Conditioning has been a factory authorized dealer of quality Carrier products since 1969. As the longest standing Carrier dealer in Northeast Wisconsin, we know the value of quality products and equipment. We offer a large selection of Energy Star products ranging from air conditioners and furnaces to hybrid heating systems, humidifiers and controls.
+
+   
+    A four-time recipient of the Carrier President’s Award, Knope has been repeatedly honored for outstanding performance, annual growth and continual emphasis on customer satisfaction, even in the face of challenges and change."
 testimonials:
   - testimonial: Extremely helpful with routine maintenance and responsive to help calls. I will always use Knope Heating and Air Conditioning for my commercial needs.
     author: Lisa W.
