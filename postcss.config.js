@@ -10,7 +10,10 @@ module.exports = {
         './layouts/**/*.svg',
         './content/**/*.md',
       ],
-      
+      safelist: [
+        'is-active',
+        'nav-open',
+      ],
     }),
   ],
 }
