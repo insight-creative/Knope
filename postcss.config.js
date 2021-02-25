@@ -10,6 +10,7 @@ module.exports = {
         './layouts/**/*.svg',
         './content/**/*.md',
       ],
+      
     }),
   ],
 }
