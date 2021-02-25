@@ -10,7 +10,7 @@ summaryLength = 30
 [params]
   logo = "images/Knope-Logo.jpg"
   # Meta data
-  description = "Site Description here"
+  description = " "
   author = "Knope Heating & Air Conditioning"
   # Contact Information
   phone = "715-524-4215"
@@ -24,14 +24,6 @@ summaryLength = 30
   # Google Analitycs
   googleAnalytics = " " # Your ID# search 
   minifyBundles = true
-
-# CSS Plugins
-  [[params.plugins.css]]
-  link = "plugins/swiper/css/swiper-bundle.min.css"
-
-# JS Plugins
-  [[params.plugins.js]]
-  link = "plugins/swiper/js/swiper-bundle.min.js"
 
 # add redirects/headers
   [outputs]

@@ -11,29 +11,34 @@
         {{ end }} | {{ .Site.Title }}
     </title>
 
-    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta itemprop="name" content="{{ .Title }}" />
+    <meta itemprop="description" content="{{ .Description }}" />
+    <meta itemprop="image" content="{{ .Params.image }}" />
+
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:locale" content="en_US" />
-
-    {{ if .Description }}
-    <meta property="og:description" content="{{ .Params.Description }}" />
-    <meta name="description" content="{{ .Params.Description }}">
-    {{ end }}
+    <meta property="og:image" content="{{ .Permalink }}{{ .Params.image }}" />
+    <meta property="og:description" content="{{ .Description }}" />
+    <meta name="description" content="{{ .Description }}" />
 
     <link rel="canonical" href="{{ .Permalink }}" />
 
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ .Description }}" />
     <meta name="twitter:site" content="@p4lm" />
+    <meta name="twitter:image" content="{{ .Permalink }}{{ .Params.image }}" />
 
     {{ $scss := resources.Get "scss/main.scss" | toCSS }}
     {{ $postcss := $scss | resources.PostCSS | minify }}
     <link rel="stylesheet" href="{{ $postcss.Permalink }}" media="screen" />
 
     <link rel="preconnect" href="https://www.google-analytics.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -51,7 +56,5 @@
     gtag('config', '{{ .Site.Params.GoogleAnalytics }}');
     </script>
     {{ end }}
-
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>

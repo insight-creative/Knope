@@ -1,8 +1,8 @@
-{{ define "content" }}
-{{ partial "blog/blog-hero" . }}
+{{ define "main" }}
+{{ partial "hero" . }}
 <section class="fade-wrapper padding-top-4 padding-bottom-4" data-scroll-section>
     <div class="container">
-        <h2 class="g1">Thank you for your message. A CorHome team member will contact you within two hours.</h2>
+        <h3>Thank you for your message. A {{ site.Params.author }} team member will contact you within two hours.</h3>
         <span class="underline-left"></span>
     </div>
 </section>

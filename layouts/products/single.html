@@ -8,7 +8,7 @@
                 {{ .Content }}
             </div>
             <div class="w-100 w-40-m">
-                <img src="/images/products/{{ .Params.featuredImage }}" alt="" class="product-featured-image">
+                <img src="/images/products/{{ .Params.featuredImage }}" alt="" class="product-featured-image" width="640" height="360">
             </div> 
         </div>
     </div>
@@ -33,7 +33,7 @@
         <div class="cards__wrapper container">
             {{ range .products }}
                 <div class="cards__col">
-                    <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="">
+                    <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="" width="640" height="360">
                     <div class="cards__details">
                         <h6 class="no-margin">{{ .title }}</h6>
                         <p class="b">{{ .productCode }}</p>

@@ -1,5 +1,5 @@
 <div class="container blog-container" data-scroll-section>
-    <h3>Read some of our recent posts to learn more about CorHome.</h3>
+    <h3>Read some of our recent posts to learn more about {{ site.Params.author }}.</h3>
       {{ $pages := .Site.RegularPages }}
       {{ $blog := where $pages "Type" "blog" }}
       {{- range first 3 $blog -}}
@@ -11,7 +11,7 @@
                           {{ $has_image := .Params.image }}
                           {{ if $has_image }}
                           <img src="{{ .Permalink }}{{ .Params.image }}" alt=""
-                              class="blog-summary__img img-responsive zoom-images">
+                              class="blog-summary__img img-responsive zoom-images" width="640" height="360">
                           {{ end }}
                       </div>
                   </div>
