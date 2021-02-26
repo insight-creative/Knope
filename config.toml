@@ -20,7 +20,7 @@ summaryLength = 30
   address = "1473 E Green Bay St, Shawano, WI"
   GoogleMapDirections = "https://goo.gl/maps/ifRQgXNT4gWN3o617"
   hours = "Mon-Fri: 8am-5pm"
-  disallowSearchEngines = true
+  disallowSearchEngines = false
   # Google Analitycs
   googleAnalytics = " " # Your ID# search 
   minifyBundles = true
