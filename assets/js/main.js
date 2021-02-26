@@ -1,10 +1,10 @@
 import barba from '@barba/core';
-import barbaPrefetch from '@barba/prefetch';
+// import barbaPrefetch from '@barba/prefetch';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 
-barba.use(barbaPrefetch);
+// barba.use(barbaPrefetch);
 gsap.registerPlugin(ScrollTrigger);
 
 const menu = document.querySelector(".mobile-nav .nav-list");
@@ -94,23 +94,8 @@ function fadeInContent() {
     }
 }
 
-function initZoom() {
-    const zoomImages = document.querySelectorAll(".zoom-image");
-    gsap.utils.toArray(zoomImages).forEach((section) => {
-        const image = section.querySelector('img');
-        gsap.to(image, {
-            scale: 1.1,
-            scrollTrigger: {
-                trigger: section,
-                scrub: true,
-            }
-        })
-    });
-}
-
 function homepageAnimations() {
     fadeInContent();
-    initZoom();
 }
 
 function initPageTransitions() {
