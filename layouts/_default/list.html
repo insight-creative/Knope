@@ -11,7 +11,7 @@
           <div class="blog-summary__image-wrap">
             {{ $has_image := .Params.image }}
             {{ if $has_image }}
-            <img src="{{ .Permalink }}{{ .Params.image }}" alt="" class="blog-summary__img img-responsive zoom-images" width="640" height="360">
+            <img src="{{ .Permalink }}{{ .Params.image }}" alt="" class="blog-summary__img img-responsive zoom-images" width="640" height="360" loading="lazy">
             {{ end }}
           </div>
         </div>

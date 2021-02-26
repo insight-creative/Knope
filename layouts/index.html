@@ -14,7 +14,7 @@
   </div>
   <div class="awards flex flex-center margin-top-5 padding-top-5">
     {{ range .Params.awards }}
-      <img src="{{ .image }}" alt="{{ .alt }}" width="360" height="360">
+      <img src="{{ .image }}" alt="{{ .alt }}" width="360" height="360" loading="lazy">
     {{ end }}
   </div>
 </section>

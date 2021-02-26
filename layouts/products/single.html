@@ -33,7 +33,7 @@
         <div class="cards__wrapper container">
             {{ range .products }}
                 <div class="cards__col">
-                    <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="" width="640" height="360">
+                    <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="" width="640" height="360" loading="lazy">
                     <div class="cards__details">
                         <h6 class="no-margin">{{ .title }}</h6>
                         <p class="b">{{ .productCode }}</p>

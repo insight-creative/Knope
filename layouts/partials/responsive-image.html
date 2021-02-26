@@ -2,5 +2,5 @@
     <source sizes="(max-width: 56.25em) 100vw, 50vw" srcset="{{ .Permalink }}{{ .Params.intro.image }}-400.avif 500w, {{ .Permalink }}{{ .Params.intro.image }}-600.avif 800w, {{ .Permalink }}{{ .Params.intro.image }}-900.avif 1200w" type="image/avif" >
     <source sizes="(max-width: 56.25em) 100vw, 50vw" srcset="{{ .Permalink }}{{ .Params.intro.image }}-400.webp 500w, {{ .Permalink }}{{ .Params.intro.image }}-600.webp 800w, {{ .Permalink }}{{ .Params.intro.image }}-900.webp 1200w" type="image/webp" >
     <source sizes="(max-width: 56.25em) 100vw, 50vw" srcset="{{ .Permalink }}{{ .Params.intro.image }}-400.jpg 500w, {{ .Permalink }}{{ .Params.intro.image }}-600.jpg 800w, {{ .Permalink }}{{ .Params.intro.image }}-900.jpg 900w" type="image/jpeg" > 
-    <img src="{{ .Permalink }}{{ .Params.intro.image }}-900.jpg" alt="{{ .Params.intro.imageAlt }}" width="500" height="500">
+    <img src="{{ .Permalink }}{{ .Params.intro.image }}-900.jpg" alt="{{ .Params.intro.imageAlt }}" width="500" height="500" loading="lazy">
 </picture>
