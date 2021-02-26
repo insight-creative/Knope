@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://knopehvac.com"
 languageCode = "en-us"
 title = "Knope Heating & Air Conditioning"
 enableRobotsTXT = true
@@ -22,7 +22,7 @@ summaryLength = 30
   hours = "Mon-Fri: 8am-5pm"
   disallowSearchEngines = false
   # Google Analitycs
-  googleAnalytics = " " # Your ID# search 
+  googleAnalytics = "" # Your ID# search 
   minifyBundles = true
 
 # add redirects/headers
