@@ -8,3 +8,35 @@
 [[redirects]]
   from = "/contact-us1/"
   to = "/contact/"
+
+[[redirects]]
+  from = "/services1/"
+  to = "/services/"
+
+[[redirects]]
+  from = "/specials1/"
+  to = "/specials/"
+
+[[redirects]]
+  from = "/about-us/"
+  to = "/about/"
+
+[[redirects]]
+  from = "/news-updates1/"
+  to = "/blog/"
+
+[[redirects]]
+  from = "/careers/"
+  to = "/contact/"
+
+[[redirects]]
+  from = "/financing1/"
+  to = "/contact/"
+
+[[redirects]]
+  from = "/tv-spot/"
+  to = "/"
+
+[[redirects]]
+  from = "/presidents-award/"
+  to = "/about/"
