@@ -1,2 +1,10 @@
 [context.production.environment]
   HUGO_VERSION = "0.74.3"
+
+[[redirects]]
+  from = "/products1/"
+  to = "/products/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
