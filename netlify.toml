@@ -4,7 +4,7 @@
 [[redirects]]
   from = "/products1/"
   to = "/products/"
-  status = 301
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/contact1/"
+  to = "/contact/"

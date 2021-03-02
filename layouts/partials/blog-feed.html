@@ -18,7 +18,6 @@
                   <div class="w-100 w-70-m">
                       <div class="blog-summary__content">
                           <h3 class="blog-summary__title g4">{{ .Title }}</h3>
-                          {{ partial "blog/entry-meta" . }}
                           <p class="blog-summary__summary">
                               {{ if .Params.summary }}{{ .Params.summary | safeHTML }}{{ else }}{{ .Summary | safeHTML }}{{ end }}
                           </p>
