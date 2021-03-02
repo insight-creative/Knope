@@ -6,5 +6,5 @@
   to = "/products/"
 
 [[redirects]]
-  from = "/contact1/"
+  from = "/contact-us1/"
   to = "/contact/"
