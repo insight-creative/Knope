@@ -1,10 +1,10 @@
 import barba from '@barba/core';
-// import barbaPrefetch from '@barba/prefetch';
+import barbaPrefetch from '@barba/prefetch';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { pageTransitionOut, pageTransitionIn, updateMenu } from './partials';
 
-// barba.use(barbaPrefetch);
+barba.use(barbaPrefetch);
 gsap.registerPlugin(ScrollTrigger);
 
 const menu = document.querySelector(".mobile-nav .nav-list");
