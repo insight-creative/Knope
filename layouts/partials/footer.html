@@ -1,8 +1,8 @@
-<footer class="footer" data-scroll-section>
+<footer class="footer" data-scroll-section role="contentinfo">
   <div class="footer__copyright">
     <div class="footer__copyright-wrapper container-wide flex flex-column flex-row-m">
       <span>© {{ dateFormat "2006" now }} {{ .Site.Params.author }}</span>
-      <nav class="footer__nav">
+      <nav class="footer__nav" aria-label="Footer Navigation">
         <ul class="footer__nav-list">
           <li class="footer__nav-list-item"><a href="/privacy-policy/" class="footer__nav-item">Privacy Policy</a> | </li>
           <li class="footer__nav-list-item"><a href="/sitemap/" class="footer__nav-item">Sitemap</a> | </li>

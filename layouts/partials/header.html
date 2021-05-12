@@ -1,7 +1,7 @@
 {{ "<!-- Header -->" | safeHTML }}
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
-<header class="site-header" data-scroll-sticky data-scroll-target="header">
+<header class="site-header" data-scroll-sticky data-scroll-target="header" role="banner">
   <div class="mobile-phone bg-blue">
     <a href="tel:{{ .Site.Params.phone }}" class="mobile-phone__link">Call Knope: {{ .Site.Params.phone }}</a>
   </div>
@@ -19,7 +19,7 @@
     </button>
   </div>  
   <div class="primary-nav-container">
-    <nav class="nav primary-nav">
+    <nav class="nav primary-nav" role="navigation" aria-label="Primary Navigation">
       {{ with .Site.Menus.main }}
       <ul class="nav-list">
           {{ range . }}
@@ -31,7 +31,7 @@
           </ul>
       {{ end }}
     </nav>
-    <nav class="nav mobile-nav">
+    <nav class="nav mobile-nav" role="navigation" aria-label="Mobile Navigation">
       {{ with .Site.Menus.main }}
       <ul class="nav-list">
           {{ range . }}

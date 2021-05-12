@@ -3,6 +3,9 @@
   <div class="hero__inner container-wide flex flex-column flex-row-m flex-center">
     <div class="w-100 w-60-m">
       <h1>{{ .Params.HeroTitle }}</h1>
+      <div class="hero__carrier-logo">
+        <img src="/images/carrier-logo-white-tag.png" alt="Carrier Logo" width="300" height="100">
+      </div>
     </div>
     <div class="hero__service-request w-100 w-40-m">
       {{ partial "request-service" . }}
