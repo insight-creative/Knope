@@ -1,6 +1,9 @@
 [context.production.environment]
   HUGO_VERSION = "0.83.1"
 
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.83.1"
+
 [[redirects]]
   from = "/products1/"
   to = "/products/"
