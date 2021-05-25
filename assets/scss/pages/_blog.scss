@@ -41,6 +41,7 @@
       .blog-summary__read-more {
         svg {
           fill: $accentColor;
+          stroke: $accentColor;
           transform: translateX(5px);
         }
       }
@@ -91,7 +92,7 @@
   border-bottom: none;
 }
 .single-post {
-  figure {
+  picture {
     img {
       max-height: 400px;
       object-fit: cover;
