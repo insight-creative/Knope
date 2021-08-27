@@ -1,6 +1,6 @@
 ---
 title: 5 tips to keep your furnace at peak performance
-date: 2013-09-12T22:33:45-06:00
+date: 2013-09-12
 image: carrier-heating-and-cooling-products-blog.jpg
 desc: ""
 summary: "With the winter weather taking it’s toll on your home this year, ensure your furnace is running at peak performance with a few simple tips."
