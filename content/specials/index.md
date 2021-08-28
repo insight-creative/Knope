@@ -6,9 +6,10 @@ description: Knope Heating & Air Conditioning offers commercial & residential HV
 has_hero_image: true
 ---
 
-<h2 class="no-margin">Carrier Cool Cash Rebates</h2>
-
-<div class="underline"></div>
+<div>
+    <h2 class="no-margin">Carrier Cool Cash Rebates</h2>
+    <div class="underline"></div>
+</div>
 
 Carrier offers consumers an incentive to purchase and install a new heating and cooling system in their home—the better the system, the bigger the rebate. On qualifying products, consumers can receive up to a $1,600 rebate on a Carrier system. Contact us for product specific details.
 
