@@ -2,8 +2,8 @@
 title: "What temperature should I set my thermostat?"
 date: "2021-02-02"
 image: couple-sleeping-in-bed.jpg
-summary: "Trying to decide what temperature to set your thermostat? You are not alone!"
-desc: "Trying to decide what temperature to set your thermostat? You are not alone! Here are some tips on how to find the right temperature setting for your home:"
+image_alt: "couple sleeping in bed"
+description: "Trying to decide what temperature to set your thermostat? You are not alone! Here are some tips on how to find the right temperature setting for your home:"
 ---
 
 ![couple sleeping in bed](couple-sleeping-in-bed.jpg)

@@ -2,8 +2,8 @@
 title: 7 Simple Tips for Healthy Home Maintenance this Spring
 date: 2021-05-19
 image: Couple_Dining_Table_Laptop.jpg
-desc: ""
-summary: "In the U.S., we spend 90% of our lives indoors! Spring often means home cleaning, but it can also be a great time to check off some key maintenance tasks to create a healthier indoor space."
+image_alt: "Couple sitting in dining room with man on laptop at table"
+description: "In the U.S., we spend 90% of our lives indoors! Spring often means home cleaning, but it can also be a great time to check off some key maintenance tasks to create a healthier indoor space."
 ---
 
 ![Couple sitting in dining room with man on laptop at table](Couple_Dining_Table_Laptop.jpg)

@@ -9,10 +9,15 @@
       <div class="flex flex-column flex-row-m">
         <div class="w-100 w-30-m">
           <div class="blog-summary__image-wrap">
-            {{ $has_image := .Params.image }}
-            {{ if $has_image }}
-            <img src="{{ .Permalink }}{{ .Params.image }}" alt="{{ .Title }}" class="blog-summary__img img-responsive zoom-images" width="640" height="360" loading="lazy">
-            {{ end }}
+            {{ $image := (.Resources.GetMatch (index .Params.image)) }}
+            {{ $webp_s := $image.Resize "600x q80 webp" }}
+            {{ $jpg_s:= $image.Resize "600x q80" }}
+            <picture>
+              <source srcset="{{ $webp_s.RelPermalink }}" type="image/webp" >
+              <source srcset="{{ $jpg_s.RelPermalink }}" type="image/jpg" >
+              <img loading="lazy"
+                  src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Params.image_alt }}" class="blog-summary__img img-responsive zoom-images">
+            </picture>
           </div>
         </div>
         <div class="w-100 w-70-m">
@@ -20,7 +25,7 @@
             <h3 class="blog-summary__title g4">{{ .Title }}</h3>
             <!-- {{ partial "blog/entry-meta" . }} -->
             <p class="blog-summary__summary">
-              {{ if .Params.summary }}{{ .Params.summary | safeHTML }}{{ else }}{{ .Summary  | safeHTML }}{{ end }}
+              {{ if .Description }}{{ .Description | safeHTML }}{{ else }}{{ .Summary  | safeHTML }}{{ end }}
             </p>
             <span class="blog-summary__read-more">
               Read More {{ partial "svg-icons/arrow-right.svg" . }}

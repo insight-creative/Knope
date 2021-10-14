@@ -2,8 +2,8 @@
 title: "Staying productive while working from home: 6 tips for making your home your office"
 date: "2021-02-02"
 image: work-from-home.jpg
-summary: ""
-desc: "Before COVID-19 changed everything, working from home was more of a nicety than a necessity. But today, many people are being asked to turn their living space into a work space."
+image_alt: "man at desk on computer working from home"
+description: "Before COVID-19 changed everything, working from home was more of a nicety than a necessity. But today, many people are being asked to turn their living space into a work space."
 ---
 
 ![man at desk on computer working from home](work-from-home.jpg)

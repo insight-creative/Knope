@@ -2,8 +2,8 @@
 title: How to Save Energy with Wi-Fi® Thermostats
 date: 2021-08-27
 image: carrier-dealer-showing-couple-a-wifi-thermostat.jpg
-desc: ""
-summary: "Because heating and cooling can account for more than half of your home’s energy costs, choosing a programmable, Wi-Fi® thermostat is a smart choice."
+image_alt: "Carrier technician explaining a wifi thermostat to a younger couple"
+description: "Because heating and cooling can account for more than half of your home’s energy costs, choosing a programmable, Wi-Fi® thermostat is a smart choice."
 ---
 
 ![Carrier technician explaining a wifi thermostat to a younger couple](carrier-dealer-showing-couple-a-wifi-thermostat.jpg)

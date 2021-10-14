@@ -2,8 +2,8 @@
 title: Kick Off Fall with a Furnace Clean and Check
 date: 2021-08-27
 image: furnace-tuneup-dealer.jpg
-desc: ""
-summary: "When you’re setting your calendar for the first big game of the season, why not pencil in a reminder to contact your local Carrier HVAC contractor for a routine tune-up of your furnace?"
+image_alt: "Carrier technician performing a furnace tune up"
+description: "When you’re setting your calendar for the first big game of the season, why not pencil in a reminder to contact your local Carrier HVAC contractor for a routine tune-up of your furnace?"
 ---
 
 ![Carrier technician performing a furnace tune up](furnace-tuneup-dealer.jpg)
