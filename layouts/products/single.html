@@ -16,7 +16,7 @@
     <div class="cards products sp-10">
         {{ if .name }}
         <div class="container">
-            <h3 class="no-margin">{{ .name }}</h3>
+            <h2 class="g3 no-margin">{{ .name }}</h2>
             <div class="underline"></div>
             {{ if .description }}
             <p class="b">{{ .description }}</p>
@@ -35,10 +35,10 @@
                 <div class="cards__col">
                     <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="" width="640" height="360" loading="lazy">
                     <div class="cards__details">
-                        <h6 class="no-margin">{{ .title }}</h6>
+                        <h4 class="g6 no-margin">{{ .title }}</h4>
                         <p class="b">{{ .productCode }}</p>
                         <p class="padding-bottom-2">{{ .description }}</p>
-                        <h6>Top Features</h6>
+                        <h4 class="g6">Top Features</h4>
                         <ul>
                             {{ range .features }}
                                 <li>{{ .feature }}</li>
@@ -61,7 +61,7 @@
             {{ range .Params.infinityProducts.products }}
                 <div class="cards__col">
                     <img src="{{.Site.BaseURL}}/images/products/{{ .image }}" alt="">
-                    <h4>{{ .title }}</h6>
+                    <h4>{{ .title }}</h4>
                     <p class="b">{{ .productCode }}</p>
                     <p>{{ .seer }}</p>
                     <p>{{ .decibel }}</p>

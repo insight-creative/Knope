@@ -10,14 +10,14 @@
                         <div class="business-info__col flex">
                             {{ partial "svg-icons/envelope.svg" . }}
                             <div class="business-info__col-content">
-                                <h6>Email</h6>
+                                <span class="text-primary g6 b">Email</span>
                                 <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.Author }}</a></p>
                             </div>
                             </div>
                         <div class="business-info__col flex">
                             {{ partial "svg-icons/phone.svg" . }}
                             <div class="business-info__col-content">
-                                <h6>Phone</h6>
+                                <span class="text-primary g6 b">Phone</span>
                                 <p>Office: <a href="tel:{{ .Site.Params.phone }}"> {{ .Site.Params.phone }}</a></p>
                                 <p>Cell: <a href="tel:{{ .Site.Params.cell }}"> {{ .Site.Params.cell }}</a></p>
                                 <p>Fax: {{ .Site.Params.fax }}</p>
@@ -26,14 +26,14 @@
                         <div class="business-info__col flex">
                             {{ partial "svg-icons/location.svg" . }}
                             <div class="business-info__col-content header-business-info__address">
-                                <h6>Address</h6>
+                                <span class="text-primary g6 b">Address</span>
                                 <p><a href="{{ .Site.Params.GoogleMapDirections }}" target="_blank">{{ .Site.Params.address }}</a></p>
                             </div>
                         </div>
                         <div class="business-info__col flex">
                             {{ partial "svg-icons/calendar.svg" . }}
                             <div class="business-info__col-content">
-                                <h6>Hours</h6>
+                                <span class="text-primary g6 b">Hours</span>
                                 <p>{{ .Site.Params.hours }}</p>
                                 <p>24hr Emergency Service</p>
                             </div>
@@ -47,31 +47,35 @@
                 <h4 class="no-margin">Send a Message</h4>
                 <div class="underline"></div>
                 <div class="contact-form__wrapper">
-                    <form name="contact" netlify netlify-honeypot="bot-field" action="/thank-you">
+                    <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/thank-you/">
                         <div hidden>
                             <label>
                               Don’t fill this out if you're human: 
                               <input name="bot-field" />
                             </label>
                         </div>
+                        <div class="visually-hidden">
+                            <label for="subject">New form submission from the knopehvac.com contact form</label>
+                            <input aria-label="subject" id="subject" name="subject" value="New form submission from the knopehvac.com contact form" />
+                        </div>
                         <div class="contact-form__form-group">
                             <label for="name">Name*</label>
-                            <input name="name" type="name" class="contact-form__form-control" required>
+                            <input name="name" id="name" type="text" class="contact-form__form-control" required>
                         </div>
                         <div class="contact-form__form-group">
                             <label for="email">Email*</label>
-                            <input name="_replyto" type="email" class="contact-form__form-control" required>
+                            <input name="_replyto" id="email" type="email" class="contact-form__form-control" required>
                         </div>
                         <div class="contact-form__form-group">
-                            <label for="email">Phone*</label>
-                            <input name="phone" type="phone" class="contact-form__form-control" required>
+                            <label for="phone">Phone*</label>
+                            <input name="phone" id="phone" type="tel" class="contact-form__form-control" required>
                         </div>
                         <div class="contact-form__form-group">
                             <label for="message">Message*</label>
-                            <textarea name="message" class="contact-form__form-control" rows="4" required></textarea>
+                            <textarea name="message" id="message" class="contact-form__form-control" rows="4" required></textarea>
                         </div>
-                        <div style="margin-bottom: 1em;" netlify-recaptcha></div>
-                        <button target="_blank" type="submit" class="contact-form__btn btn btn-primary">Send
+                        <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
+                        <button type="submit" class="contact-form__btn btn btn-primary">Send
                             Message {{ partial "svg-icons/arrow-right.svg" . }}</button>
                     </form>
                 </div>

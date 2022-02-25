@@ -1,12 +1,16 @@
 <div class="contact-form">
-    <legend class="g5 text-primary b">Request Service</legend>
+    <span class="g5 text-primary b">Request Service</span>
     <div class="contact-form__wrapper">
-        <form name="contact" netlify netlify-honeypot="bot-field" action="/thank-you">
+        <form name="contact" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/thank-you/">
             <div hidden>
                 <label for="bot-field">
                   Don’t fill this out if you're human: 
                   <input name="bot-field" id="bot-field" />
                 </label>
+            </div>
+            <div class="visually-hidden">
+                <label for="subject">New form submission from the knopehvac.com contact form</label>
+                <input aria-label="subject" id="subject" name="subject" value="New form submission from the knopehvac.com contact form" />
             </div>
             <div class="contact-form__form-group">
                 <label for="name">Name*</label>
@@ -24,8 +28,8 @@
                 <label for="message">Message*</label>
                 <textarea name="message" id="message" class="contact-form__form-control" rows="4" required></textarea>
             </div>
-            <div style="margin-bottom: 1em;" netlify-recaptcha></div>
-            <button target="_blank" type="submit" class="contact-form__btn btn btn-primary">Send
+            <div style="margin-bottom: 1em;" data-netlify-recaptcha="true"></div>
+            <button type="submit" class="contact-form__btn btn btn-primary">Send
                 Request {{ partial "svg-icons/arrow-right.svg" . }}</button>
         </form>
     </div>
