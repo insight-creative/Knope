@@ -9,6 +9,10 @@ intro:
   image: knope-heating-and-air-conditioning
   imageAlt: Carrier service repairmen meeting with client and looking and furnaces and air conditioning units
 awards:
+  - image: 2023-presidents-award.jpg
+    alt: 2023 Carrier Presidents Award Winner
+  - image: 2022-presidents-award.jpg
+    alt: 2022 Carrier Presidents Award Winner
   - image: 2021-carrier-presidents-award-grayscale.jpg
     alt: 2021 Carrier Presidents Award Winner
   - image: 2020-carrier-presidents-award-grayscale.jpg
